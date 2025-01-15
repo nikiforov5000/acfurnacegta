@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="page-wrapper">
+        <div class="section">
+            <div class="wrapper wrapper-center">
+                <div class="col col-3 red">
+                    <h1>hello3</h1>
+                </div>
+                <div class="col col-9 green">
+                    <h1>hello9</h1>
+                </div>
+                <div class="col col-12 green">
+                    <h1>hello12</h1>
+                </div>
+                <%= include('./html/about.ejs', {data: "hello"}) %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
