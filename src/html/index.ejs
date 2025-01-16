@@ -1,0 +1,119 @@
+<%
+const {language, appId, routeData, page} = htmlWebpackPlugin.options;
+let {imageRoot, contentRoot, omniBase, baseUrl, apiUrl} = routeData;
+
+imageRoot = imageRoot.replace('{locale}', `${page}_${language}`);
+contentRoot = contentRoot.replace('{locale}', `${page}_${language}`);
+omniBase = omniBase.replace('{locale}', `${page}_${language}`);
+baseUrl = baseUrl.replace('{locale}', `${page}_${language}`);
+
+
+imageRoot = imageRoot.replace('{appId}', appId);
+contentRoot = contentRoot.replace('{appId}', appId);
+omniBase = omniBase.replace('{appId}', appId);
+baseUrl = baseUrl.replace('{appId}', appId);
+
+const omniType = 'microsite';
+
+const translation = require(`../../data/translations/locale-${page}-${language}`);
+
+const t = (str) => (translation[str] ? translation[str] : str);
+
+const _faq_item = require('./_faq_item.ejs');
+const _popup = require('./_popup.ejs');
+const input = require('./_input.ejs');
+const formFields = require("../js/formFields");
+const _youtube = require('./_youtube.ejs');
+
+const steps = [...new Set(formFields.map(item => item.step))].length;
+
+%>
+<!DOCTYPE html>
+<html lang="<%= language %>">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <link rel="stylesheet" href="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-base.min.b2b46ed65d46ffd78b7dd408f6f1ed36.css" />
+</head>
+
+<body>
+  <%
+    //Duplicate translation strings which used in js scripts
+%>
+  <script>
+    var seceTranslationStrings = {
+      'POPUP_SUCCESS_TITLE': "<%= t('POPUP_SUCCESS_TITLE') %>",
+      'POPUP_SUCCESS_TEXT': "<%= t('POPUP_SUCCESS_TEXT') %>",
+      'POPUP_ERROR_TITLE': "<%= t('POPUP_ERROR_TITLE') %>",
+      'BT_SEND': "<%= t('BT_SEND') %>",
+      'POPUP_ERROR_TEXT': "<%= t('POPUP_ERROR_TEXT') %>",
+      'FORM_INPUT_ERROR_REQUIRED': "<%= t('FORM_INPUT_ERROR_REQUIRED') %>",
+      'FORM_INPUT_AGREEMENT_ERROR': "<%= t('FORM_INPUT_AGREEMENT_ERROR') %>",
+      'POPUP_ERROR_SERIAL_TEXT': "<%= t('POPUP_ERROR_SERIAL_TEXT') %>",
+      'FORM_KEY': "<%= t('FORM_KEY') %>",
+      'FORM_INPUT_PHONE_FORMAT_MASK': "<%= t('FORM_INPUT_PHONE_FORMAT_MASK') %>",
+      'FORM_INPUT_PHONE_FORMAT_PATTERN': "<%= t('FORM_INPUT_PHONE_FORMAT_PATTERN') %>",
+      'POPUP_SUCCESS_AFTER_TITLE': "<%= t('POPUP_SUCCESS_AFTER_TITLE') %>",
+      'POPUP_SUCCESS_AFTER_TEXT': "<%= t('POPUP_SUCCESS_AFTER_TEXT') %>",
+    };
+    window.pageCountryId = "<%= page %>";
+    window.seceTranslationStrings = seceTranslationStrings;
+    window.seceSubmitUrl = "//api.sece.kz";
+  </script>
+  <div class="sece-main-wrap sece-language-<%= language %>" data-page="<%= page %>" data-language="<%= language %>" data-base-url="<%= baseUrl %>" data-omni-base="<%= omniBase %>" data-assets-image="<%= imageRoot %>" data-assets-content="<%= contentRoot %>">
+
+    <div id="page-wrapper">
+      <section id="example" class="section section-example">
+        <div class="wrapper">
+          <div class="col col-6">
+            <div class="text-wrap text-padded">
+              <h1>Title</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="buttons">
+                <a href="" class="btn-p6 btn-p6-encased">Кнопка пустая</a>
+                <a href="" class="btn-p6 btn-p6-black">Кнопка чёрная</a>
+                <a href="" class="btn-p6 btn-p6-white">Кнопка белая</a>
+                <a href="" class="btn-p6 btn-p6-text-underline">Кнопка-текст с подчеркиванием</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="" alt="" class="background desktop-only">
+        <img src="" alt="" class="background mobile-only">
+      </section>
+      <div class="section section-form">
+        <div class="wrapper wrapper-center">
+          <div class="col col-3">
+            <form id="submit-form" <%- (steps > 1) ? 'class="form-steps" data-step="0"' : '' %> action="<%= baseUrl %>" enctype="multipart/form-data" method="post" novalidate>
+              <%- formFields.map(params => input({params: {...params, translation, t}})).join('') %>
+              <div class="input-row form-submit input-step" data-step="0">
+                <input id="form-locale" type="hidden" value="<%= page %>_<%= language %>" name="locale">
+                <input id="form-cid" type="hidden" value="" name="cid">
+                <input id="form-channel" type="hidden" value="" name="channel">
+                <div class="buttons">
+                  <input disabled="disabled" data-step="0" data-omni-type="microsite" data-omni="<%= page %>_<%= language %>:<%= omniBase %>:form:submit" type="submit" value="<%= t('BT_NEXT') %>" class="btn-p6 btn-p6-black btn-next">
+                </div>
+              </div>
+              <div class="input-row form-submit input-step" data-step="1">
+                <div class="buttons">
+                  <input disabled="disabled" data-step="1" data-omni-type="microsite" data-omni="<%= page %>_<%= language %>:<%= omniBase %>:form:submit" type="submit" value="<%= t('BT_SUBMIT') %>" class="btn-p6 btn-p6-black btn-submit">
+                </div>
+              </div>
+            </form>
+            <div class="block-rc block-bg-white message-response is_hidden">
+              <div class="text-wrap text-center">
+                <h3><%- t('POPUP_SUCCESS_TITLE') %></h3>
+                <p><%- t("POPUP_SUCCESS_TEXT") %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- _popup({t, language, page}) %>
+  </div>
+</body>
+
+</html>

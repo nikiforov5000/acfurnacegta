@@ -1,0 +1,45 @@
+[
+  {
+    "id" : "technodom",
+    "title" : "Technodom",
+    "image" : "/images/logo_technodom.svg",
+    "url" : "https://www.technodom.kz/b/samsung",
+    "classes" : ""
+  },
+  {
+    "id" : "sulpak",
+    "title" : "Sulpak",
+    "image" : "/images/logo_sulpak.svg",
+    "url" : "https://www.sulpak.kz/",
+    "classes" : ""
+  },
+  {
+    "id" : "mechta",
+    "title" : "Mechta",
+    "image" : "/images/logo_mechta.svg",
+    "url" : "https://www.mechta.kz/promo/samsung/",
+    "classes" : ""
+  },
+
+  {
+    "id" : "evrika",
+    "title" : "Evrika",
+    "image" : "/images/logo_evrika.svg",
+    "url" : "https://evrika.com/samsung/",
+    "classes" : ""
+  },
+  {
+    "id" : "fora",
+    "title" : "Fora",
+    "image" : "/images/logo_fora.svg",
+    "url" : "https://fora.kz/brand-zones/samsung",
+    "classes" : ""
+  },
+  {
+    "id" : "alser",
+    "title" : "Alser",
+    "image" : "/images/logo_alser.svg",
+    "url" : "https://alser.kz/",
+    "classes" : ""
+  }
+]

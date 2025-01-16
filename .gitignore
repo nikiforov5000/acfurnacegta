@@ -1,2 +1,41 @@
-node_modules
-node_modules
+/node_modules
+# yii console commands
+/yii/yii
+/yii/yii_test
+/yii/yii_test.bat
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/yii/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/yii/phpunit.xml
+
+# vagrant runtime
+/yii/.vagrant
+/yii/admin/assets
+/node_modules
+
+/auth
+/examples/

@@ -1,0 +1,63 @@
+<%
+    const _partner = require('./_partner.ejs');
+
+    shuffle = (arr) => {
+        return arr.sort(() => (Math.random() - 0.5))
+    };
+
+    let partners = shuffle([
+        {
+            "id" :"sulpak",
+            "image" : "logo_sulpak.svg",
+            "url" : sulpak
+        },
+        {
+            "id" : "technodom",
+            "image" : "logo_technodom.svg",
+            "url" : technodom
+        },
+        {
+            "id" : "mechta",
+            "image" : "logo_mechta.svg",
+            "url" : mechta
+        },
+        {
+            "id" : "fora",
+            "image" : "logo_fora.svg",
+            "url" : fora
+        },
+        {
+            "id" : "evrika",
+            "image" : "logo_evrika.svg",
+            "url" : evrika
+        },
+        {
+            "id" : "alser",
+            "image" : "logo_alser.svg",
+            "url" : alser
+        }
+    ]);
+    partners = partners.filter(({ id, url }) => url && url.length);
+
+ %>
+<div class="col col-<%= col %>">
+    <div class="text-wrap text-center">
+        <div class="block-offer block-rc <%- style %>">
+            <h4><%- title %></h4>
+            <img src="<%- imageRoot %>/images/<%- image %>" alt="<%- title %>">
+            <button class="btn-p6 btn-p6-encased popup-trigger"><%- t('BT_READMORE') %></button>
+        </div>
+        <div class="popup-content-data is_hidden">
+            <img src="<%- imageRoot %>/images/<%- image %>" alt="<%- title %>">
+            <p class="dates"><%- dates %></p>
+            <h5 class="title"><%- title %></h5>
+            <p class="text"><%- text %></p>
+            <div class="table">
+                <%- table %>
+            </div>
+            <div class="partners">
+                <%- partners.map(item => _partner({...item, contentRoot, t, asLink: true})).join("\n"); %>
+            </div>
+        </div>
+    </div>
+</div>

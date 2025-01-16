@@ -1,0 +1,177 @@
+@import '//guide.samsung.kz/fonts/font-kazakh.css';
+.sece-faq-wrap {
+    font-family: 'SamsungOne', arial, sans-serif;
+    position: relative;
+}
+.sece-faq-wrap strong,
+.sece-faq-wrap .boldme {
+    font-family: 'SamsungOne', arial, sans-serif;
+    font-weight: bold;
+}
+.sece-faq-wrap .unboldme {
+    font-family: 'SamsungOne', arial, sans-serif;
+    font-weight: normal; 
+}
+.sece-faq-wrap .nowrap {
+    white-space: nowrap;
+}
+.sece-faq-wrap .sharp {
+    font-family: 'SamsungSharpSans', 'SamsungOne', arial, sans-serif;
+}
+.sece-faq-wrap .clear {
+    clear: both;
+}
+.sece-faq-wrap .ease {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.sece-faq-wrap a {
+    outline: none;
+}
+.sece-faq-wrap div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sece-faq-wrap h1,
+.sece-faq-wrap h2,
+.sece-faq-wrap h3,
+.sece-faq-wrap h4 {
+    font-family: 'SamsungSharpSansK', 'SamsungSharpSans', 'SamsungOne', arial, sans-serif;
+}
+.sece-faq-wrap.noSharpSans h1,
+.sece-faq-wrap.noSharpSans h2,
+.sece-faq-wrap.noSharpSans h3,
+.sece-faq-wrap.noSharpSans h4 {
+    font-family: 'SamsungOne', arial, sans-serif;
+}
+.sece-faq-wrap .section {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+}
+.sece-faq-wrap .section.nomb {
+    margin-bottom: 0;
+}
+.sece-faq-wrap .show-desktop { display: block !important; }
+.sece-faq-wrap .show-mobile { display: none !important; }
+.section .section-title {
+    margin-bottom: 32px;
+}
+.section.faq-block {
+    max-width: 1185px;
+    border-top: 1px solid #D6D6D6;
+    padding-top: 32px;
+}
+.section.faq-block .faq-items {
+    width: 75%;
+    margin: 0 auto;
+    border-top: 1px solid #D6D6D6;
+}
+.section.faq-block .faq-items .faq-item {
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid #D6D6D6;
+    position: relative;
+}
+.section.faq-block .faq-items .faq-item .question {
+    line-height: 1.4;
+    font-family: 'SamsungSharpSans', 'SamsungOne', arial, sans-serif;
+    padding: 10px 0;
+    padding-right: 32px;
+    position: relative;
+    cursor: pointer;
+}
+.sece-faq-wrap.noSharpSans .section.faq-block .faq-items .faq-item .question {
+	font-family: 'SamsungOne', arial, sans-serif;
+	font-weight: bold;
+}
+.section.faq-block .faq-items .faq-item .question:before {
+	display: block;
+	width: 29px;
+	height: 29px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    content: "";
+    background-image: url(//images.samsung.com/is/content/samsung/assets/kz_ru/smartphones/galaxy-upgrade/down-arrow.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section.faq-block .faq-items .faq-item.open .question:before {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.section.faq-block .faq-items .faq-item .answer {
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+.section.faq-block .faq-items .faq-item .answer a {
+    text-decoration: underline;
+    color: #000;
+}
+.section.faq-block .faq-items .faq-item .answer .partners-list { padding-top: 12px; }
+.section.faq-block .faq-items .faq-item .answer .partners-list img {
+    display: inline-block;
+    margin-right: 18px;
+}
+@media (min-width: 1440px) {
+
+}
+@media (max-width: 1440px) {
+    .sece-faq-wrap .section { margin-bottom: 5.56vw; }
+    .section .section-title { margin-bottom: 2.2222vw; }
+    .sece-faq-wrap .wrap960 { max-width: 66.67vw; }
+    .sece-faq-wrap .wrap720 { max-width: 50vw; }
+    .section.faq-block { padding-top: 2.22vw; max-width: 82.29%; }
+    .section.faq-block .faq-items .faq-item { font-size: 1.11vw; }
+    .section.faq-block .faq-items .faq-item .question { padding: 0.69vw 0; padding-right: 2.22vw; }
+    .section.faq-block .faq-items .faq-item .question:before { top: 0.42vw; height: 2.08vw; width: 2.08vw; }
+    .section.faq-block .faq-items .faq-item .answer { padding-bottom: 0.69vw; }
+}
+@media (max-width:1280px) {
+
+}
+@media (max-width:1024px) {
+    
+}
+@media (max-width:900px) {
+
+}
+@media (max-width:768px) {
+    .sece-faq-wrap .show-desktop { display: none !important; }
+    .sece-faq-wrap .show-mobile { display: block !important; }
+    .sece-faq-wrap .section { margin-bottom: 9vw; }
+    .section .section-title { margin-bottom: 4.44444vw; }
+    .section.faq-block { padding: 0 6.67vw; padding-top: 5.55vw; max-width: 100%; }
+    .section.faq-block .faq-items { width: 100%; }
+    .section.faq-block .faq-items .faq-item { font-size: 3.33vw; }
+    .section.faq-block .faq-items .faq-item .question { padding: 3.33vw 0; padding-right: 6.66vw; }
+    .section.faq-block .faq-items .faq-item .question:before { top: 3vw; height: 5.5vw; width: 5.5vw; }
+    .section.faq-block .faq-items .faq-item .answer { padding-bottom: 3.33vw; }
+    .section.faq-block .faq-items .faq-item .answer .partners-list { padding-top: 3vw; }
+    .section.faq-block .faq-items .faq-item .answer .partners-list img { margin-right: 4%; width: 20vw; height: auto; }
+}
+@media (max-width:640px) {
+    
+}
+@media (max-width:580px) {
+    
+}
+@media (max-width:480px) {
+    
+}
+@media (max-width:320px) {
+
+}

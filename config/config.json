@@ -1,0 +1,39 @@
+{
+  "appId" : "TestApi",
+  "location" : "/{locale}/",
+  "baseUrl" : "./",
+  "analyseBundle" : false,
+  "port" : 8084,
+  "pages" : [
+    {
+      "appId" : "TestApi",
+      "location" : "kz_ru/"
+    }
+  ],
+  "routesMap" : {
+    "dev": {
+      "env": "dev",
+      "root": "",
+      "contentRoot": "",
+      "imageRoot": "",
+      "omniBase" :  "{locale}",
+      "baseUrl" : "//api.sece.kz/"
+    },
+    "test": {
+      "env": "test",
+      "root": "./",
+      "contentRoot": "",
+      "imageRoot": "",
+      "omniBase" :  "{locale}",
+      "baseUrl" : "//api.sece.kz/"
+    },
+    "production": {
+      "env": "prod",
+      "root": "./",
+      "contentRoot": "//images.samsung.com/is/content/samsung/assets/kz_ru",
+      "imageRoot": "//images.samsung.com/is/image/samsung/assets/kz_ru",
+      "omniBase" :  "{locale}",
+      "baseUrl" :  "//api.sece.kz/"
+    }
+  }
+}
