@@ -19,6 +19,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "ejs-compiled-loader": "^3.0.0",
+    "hash": "^0.2.1",
     "html-webpack-plugin": "^5.3.1",
     "js-cookie": "^2.2.1",
     "masonry-layout": "^4.2.2",

@@ -19,13 +19,7 @@ const translation = require(`../../data/translations/locale-${page}-${language}`
 
 const t = (str) => (translation[str] ? translation[str] : str);
 
-const _faq_item = require('./_faq_item.ejs');
-const _popup = require('./_popup.ejs');
-const input = require('./_input.ejs');
-const formFields = require("../js/formFields");
-const _youtube = require('./_youtube.ejs');
 
-const steps = [...new Set(formFields.map(item => item.step))].length;
 
 %>
 <!DOCTYPE html>
@@ -35,33 +29,12 @@ const steps = [...new Set(formFields.map(item => item.step))].length;
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-  <link rel="stylesheet" href="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-base.min.b2b46ed65d46ffd78b7dd408f6f1ed36.css" />
 </head>
 
 <body>
   <%
     //Duplicate translation strings which used in js scripts
 %>
-  <script>
-    var seceTranslationStrings = {
-      'POPUP_SUCCESS_TITLE': "<%= t('POPUP_SUCCESS_TITLE') %>",
-      'POPUP_SUCCESS_TEXT': "<%= t('POPUP_SUCCESS_TEXT') %>",
-      'POPUP_ERROR_TITLE': "<%= t('POPUP_ERROR_TITLE') %>",
-      'BT_SEND': "<%= t('BT_SEND') %>",
-      'POPUP_ERROR_TEXT': "<%= t('POPUP_ERROR_TEXT') %>",
-      'FORM_INPUT_ERROR_REQUIRED': "<%= t('FORM_INPUT_ERROR_REQUIRED') %>",
-      'FORM_INPUT_AGREEMENT_ERROR': "<%= t('FORM_INPUT_AGREEMENT_ERROR') %>",
-      'POPUP_ERROR_SERIAL_TEXT': "<%= t('POPUP_ERROR_SERIAL_TEXT') %>",
-      'FORM_KEY': "<%= t('FORM_KEY') %>",
-      'FORM_INPUT_PHONE_FORMAT_MASK': "<%= t('FORM_INPUT_PHONE_FORMAT_MASK') %>",
-      'FORM_INPUT_PHONE_FORMAT_PATTERN': "<%= t('FORM_INPUT_PHONE_FORMAT_PATTERN') %>",
-      'POPUP_SUCCESS_AFTER_TITLE': "<%= t('POPUP_SUCCESS_AFTER_TITLE') %>",
-      'POPUP_SUCCESS_AFTER_TEXT': "<%= t('POPUP_SUCCESS_AFTER_TEXT') %>",
-    };
-    window.pageCountryId = "<%= page %>";
-    window.seceTranslationStrings = seceTranslationStrings;
-    window.seceSubmitUrl = "//api.sece.kz";
-  </script>
   <div class="sece-main-wrap sece-language-<%= language %>" data-page="<%= page %>" data-language="<%= language %>" data-base-url="<%= baseUrl %>" data-omni-base="<%= omniBase %>" data-assets-image="<%= imageRoot %>" data-assets-content="<%= contentRoot %>">
 
     <div id="page-wrapper">
@@ -86,22 +59,7 @@ const steps = [...new Set(formFields.map(item => item.step))].length;
       <div class="section section-form">
         <div class="wrapper wrapper-center">
           <div class="col col-3">
-            <form id="submit-form" <%- (steps > 1) ? 'class="form-steps" data-step="0"' : '' %> action="<%= baseUrl %>" enctype="multipart/form-data" method="post" novalidate>
-              <%- formFields.map(params => input({params: {...params, translation, t}})).join('') %>
-              <div class="input-row form-submit input-step" data-step="0">
-                <input id="form-locale" type="hidden" value="<%= page %>_<%= language %>" name="locale">
-                <input id="form-cid" type="hidden" value="" name="cid">
-                <input id="form-channel" type="hidden" value="" name="channel">
-                <div class="buttons">
-                  <input disabled="disabled" data-step="0" data-omni-type="microsite" data-omni="<%= page %>_<%= language %>:<%= omniBase %>:form:submit" type="submit" value="<%= t('BT_NEXT') %>" class="btn-p6 btn-p6-black btn-next">
-                </div>
-              </div>
-              <div class="input-row form-submit input-step" data-step="1">
-                <div class="buttons">
-                  <input disabled="disabled" data-step="1" data-omni-type="microsite" data-omni="<%= page %>_<%= language %>:<%= omniBase %>:form:submit" type="submit" value="<%= t('BT_SUBMIT') %>" class="btn-p6 btn-p6-black btn-submit">
-                </div>
-              </div>
-            </form>
+
             <div class="block-rc block-bg-white message-response is_hidden">
               <div class="text-wrap text-center">
                 <h3><%- t('POPUP_SUCCESS_TITLE') %></h3>
@@ -112,7 +70,6 @@ const steps = [...new Set(formFields.map(item => item.step))].length;
         </div>
       </div>
     </div>
-    <%- _popup({t, language, page}) %>
   </div>
 </body>
 
