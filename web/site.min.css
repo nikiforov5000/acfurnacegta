@@ -2,156 +2,155 @@ body {
   margin: 0;
 }
 
-.sece-NewYearTraditions-wrap {
+.sece-main-wrap {
   position: relative;
   margin: 0 auto;
   width: 100%;
   background-color: #fff;
-  z-index: 2;
-  z-index: 2000;
+  z-index: 1999;
   overflow: hidden;
 }
 
-.sece-NewYearTraditions-wrap .desktop-only {
+.sece-main-wrap .desktop-only {
   display: block;
 }
 
-.sece-NewYearTraditions-wrap .mobile-only {
+.sece-main-wrap .mobile-only {
   display: none !important;
 }
 
-.sece-NewYearTraditions-wrap .colored_yellow {
+.sece-main-wrap .colored_yellow {
   color: #ffaa4e;
 }
 
-.sece-NewYearTraditions-wrap * {
+.sece-main-wrap * {
   box-sizing: border-box;
   font-family: "SamsungOne",arial,sans-serif;
 }
 
-.sece-NewYearTraditions-wrap ::-moz-selection {
-  background-color: rgba(255,255,255,.1);
+.sece-main-wrap ::-moz-selection {
+  background-color: hsla(0,0%,100%,.1);
 }
 
-.sece-NewYearTraditions-wrap ::selection {
-  background-color: rgba(255,255,255,.1);
+.sece-main-wrap ::selection {
+  background-color: hsla(0,0%,100%,.1);
 }
 
-.sece-NewYearTraditions-wrap a {
+.sece-main-wrap a {
   color: inherit;
 }
 
-.sece-NewYearTraditions-wrap h1,
-.sece-NewYearTraditions-wrap h2,
-.sece-NewYearTraditions-wrap h3 {
+.sece-main-wrap h1,
+.sece-main-wrap h2,
+.sece-main-wrap h3 {
   font-family: "SamsungSharpSans","SamsungOne",arial,sans-serif;
 }
 
-.sece-NewYearTraditions-wrap h1,
-.sece-NewYearTraditions-wrap h2,
-.sece-NewYearTraditions-wrap h3,
-.sece-NewYearTraditions-wrap h4,
-.sece-NewYearTraditions-wrap h5,
-.sece-NewYearTraditions-wrap h6 {
+.sece-main-wrap h1,
+.sece-main-wrap h2,
+.sece-main-wrap h3,
+.sece-main-wrap h4,
+.sece-main-wrap h5,
+.sece-main-wrap h6 {
   line-height: 1.2;
   margin: 0;
   width: 100%;
   white-space: normal;
 }
 
-.sece-NewYearTraditions-wrap h1:not(:first-child),
-.sece-NewYearTraditions-wrap h2:not(:first-child),
-.sece-NewYearTraditions-wrap h3:not(:first-child),
-.sece-NewYearTraditions-wrap h4:not(:first-child),
-.sece-NewYearTraditions-wrap h5:not(:first-child),
-.sece-NewYearTraditions-wrap h6:not(:first-child) {
+.sece-main-wrap h1:not(:first-child),
+.sece-main-wrap h2:not(:first-child),
+.sece-main-wrap h3:not(:first-child),
+.sece-main-wrap h4:not(:first-child),
+.sece-main-wrap h5:not(:first-child),
+.sece-main-wrap h6:not(:first-child) {
   margin: 16px 0 0;
 }
 
-.sece-NewYearTraditions-wrap h5 {
+.sece-main-wrap h5 {
   font-family: "SamsungOne",arial,sans-serif;
 }
 
-.sece-NewYearTraditions-wrap.sece-language-kz h1,
-.sece-NewYearTraditions-wrap.sece-language-kz h2,
-.sece-NewYearTraditions-wrap.sece-language-kz h3,
-.sece-NewYearTraditions-wrap.sece-language-kz h4,
-.sece-NewYearTraditions-wrap.sece-language-kz h5 {
+.sece-main-wrap.sece-language-kz h1,
+.sece-main-wrap.sece-language-kz h2,
+.sece-main-wrap.sece-language-kz h3,
+.sece-main-wrap.sece-language-kz h4,
+.sece-main-wrap.sece-language-kz h5 {
   font-family: "SamsungOne",arial,sans-serif;
 }
 
-.sece-NewYearTraditions-wrap.sece-language-kz h2 {
+.sece-main-wrap.sece-language-kz h2 {
   font-size: 32px;
 }
 
-.sece-NewYearTraditions-wrap.sece-language-kz h2.bigger {
+.sece-main-wrap.sece-language-kz h2.bigger {
   font-size: 36px;
 }
 
-.sece-NewYearTraditions-wrap ol {
+.sece-main-wrap ol {
   padding-left: 1.5em;
 }
 
-.sece-NewYearTraditions-wrap ol li {
+.sece-main-wrap ol li {
   list-style: decimal;
   list-style-position: outside;
   padding-left: 5px;
   font-size: 22px;
 }
 
-.sece-NewYearTraditions-wrap h1 {
+.sece-main-wrap h1 {
   font-size: 48px;
 }
 
-.sece-NewYearTraditions-wrap h2 {
+.sece-main-wrap h2 {
   font-size: 38px;
 }
 
-.sece-NewYearTraditions-wrap h3 {
+.sece-main-wrap h3 {
   font-size: 22px;
 }
 
-.sece-NewYearTraditions-wrap h4 {
+.sece-main-wrap h4 {
   font-size: 24px;
 }
 
-.sece-NewYearTraditions-wrap h5 {
+.sece-main-wrap h5 {
   font-size: 18px;
 }
 
-.sece-NewYearTraditions-wrap p {
+.sece-main-wrap p {
   margin: 8px 0 0;
   font-size: 18px;
   line-height: 1.2;
 }
 
-.sece-NewYearTraditions-wrap p:first-child {
+.sece-main-wrap p:first-child {
   margin-top: 0;
 }
 
-.sece-NewYearTraditions-wrap p a {
+.sece-main-wrap p a {
   text-decoration: underline;
 }
 
-.sece-NewYearTraditions-wrap .note,
-.sece-NewYearTraditions-wrap .disclaimer {
+.sece-main-wrap .note,
+.sece-main-wrap .disclaimer {
   font-size: 14px;
   color: #707070;
 }
 
-.sece-NewYearTraditions-wrap .prenote {
+.sece-main-wrap .prenote {
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .is_hidden {
+.sece-main-wrap .is_hidden {
   display: none !important;
 }
 
-.sece-NewYearTraditions-wrap .image-frame {
+.sece-main-wrap .image-frame {
   margin-top: 32px;
 }
 
-.sece-NewYearTraditions-wrap .video-frame {
+.sece-main-wrap .video-frame {
   margin-top: 32px;
   width: 100%;
   padding-top: 56.4%;
@@ -159,12 +158,12 @@ body {
   position: relative;
 }
 
-.sece-NewYearTraditions-wrap .video-frame.video-frame-square {
+.sece-main-wrap .video-frame.video-frame-square {
   padding-top: 100%;
 }
 
-.sece-NewYearTraditions-wrap .video-frame iframe,
-.sece-NewYearTraditions-wrap .video-frame video {
+.sece-main-wrap .video-frame iframe,
+.sece-main-wrap .video-frame video {
   position: absolute;
   transform: scale(1.01);
   transform-origin: 50% 50%;
@@ -175,7 +174,7 @@ body {
   background-color: rgba(0,0,0,.1);
 }
 
-.sece-NewYearTraditions-wrap .btn-blank {
+.sece-main-wrap .btn-blank {
   background: none;
   border: 0;
   padding: 0;
@@ -183,7 +182,7 @@ body {
   cursor: pointer;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6 {
+.sece-main-wrap .btn-p6 {
   height: 40px;
   border-radius: 40px;
   padding: 10px 24px 8px 24px;
@@ -195,61 +194,69 @@ body {
   align-items: center;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6 .trailing-icon {
+.sece-main-wrap .btn-p6 .trailing-icon {
   width: 16px;
   height: 16px;
   margin: 0 4px;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6:focus,
-.sece-NewYearTraditions-wrap .btn-p6:hover {
+.sece-main-wrap .btn-p6:focus,
+.sece-main-wrap .btn-p6:hover {
   transition: background-color 400ms;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6:focus .trailing-icon path,
-.sece-NewYearTraditions-wrap .btn-p6:hover .trailing-icon path {
+.sece-main-wrap .btn-p6:focus .trailing-icon path,
+.sece-main-wrap .btn-p6:hover .trailing-icon path {
   fill: #fff;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-black {
+.sece-main-wrap .btn-p6-black {
   border: 1px solid #000;
   background-color: #000;
   color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-black:focus,
-.sece-NewYearTraditions-wrap .btn-p6-black:hover {
-  background-color: #fff;
-  color: #000;
+.sece-main-wrap .btn-p6-black:hover,
+.sece-main-wrap .btn-p6-black:focus {
+  background-color: #555;
+  border: 1px solid #555;
+  color: #eee;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-blue {
+.sece-main-wrap .btn-p6-black:disabled {
+  background-color: #ddd;
+  color: #aaa;
+  border-color: #ddd;
+  cursor: default;
+}
+
+.sece-main-wrap .btn-p6-blue {
   border: 1px solid #0091ff;
   background-color: #0091ff;
   color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-blue:focus,
-.sece-NewYearTraditions-wrap .btn-p6-blue:hover {
+.sece-main-wrap .btn-p6-blue:focus,
+.sece-main-wrap .btn-p6-blue:hover {
   background-color: #fff;
   border-color: #000;
   color: #000;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-white {
+.sece-main-wrap .btn-p6-white {
   border: 1px solid #fff;
   background-color: #fff;
   color: #000;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-white:focus,
-.sece-NewYearTraditions-wrap .btn-p6-white:hover {
-  border: 1px solid #fff;
-  background-color: #000;
-  color: #fff;
+.sece-main-wrap .btn-p6-white:hover,
+.sece-main-wrap .btn-p6-white:focus {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  color: #313131;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-encased {
+.sece-main-wrap .btn-p6-encased {
   height: 40px;
   border-radius: 40px;
   padding: 10px 24px 8px 24px;
@@ -259,37 +266,37 @@ body {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  background-color: rgba(255,255,255,0);
+  background-color: hsla(0,0%,100%,0);
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-encased:focus,
-.sece-NewYearTraditions-wrap .btn-p6-encased:hover {
+.sece-main-wrap .btn-p6-encased:focus,
+.sece-main-wrap .btn-p6-encased:hover {
   transition: background-color 400ms;
   background-color: #000;
   color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-small {
+.sece-main-wrap .btn-p6-small {
   height: 28px;
   font-size: 12px;
   border: 1px solid #d4d4d4;
   font-weight: normal;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-small.is_selected,
-.sece-NewYearTraditions-wrap .btn-p6-small:focus,
-.sece-NewYearTraditions-wrap .btn-p6-small:hover {
+.sece-main-wrap .btn-p6-small.is_selected,
+.sece-main-wrap .btn-p6-small:focus,
+.sece-main-wrap .btn-p6-small:hover {
   border-color: #2189ff;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-text {
+.sece-main-wrap .btn-p6-text {
   padding: 10px 0 3px;
   margin-bottom: 6px;
   border-radius: 0;
   height: auto;
 }
 
-.sece-NewYearTraditions-wrap .btn-p6-text-underline {
+.sece-main-wrap .btn-p6-text-underline {
   padding: 10px 0 3px;
   margin-bottom: 6px;
   border-bottom: 2px solid #000;
@@ -297,36 +304,36 @@ body {
   height: auto;
 }
 
-.sece-NewYearTraditions-wrap .buttons {
+.sece-main-wrap .buttons {
   width: 100%;
   margin-left: -8px;
   margin-top: 16px;
 }
 
-.sece-NewYearTraditions-wrap .buttons .btn-p6,
-.sece-NewYearTraditions-wrap .buttons .button {
+.sece-main-wrap .buttons .btn-p6,
+.sece-main-wrap .buttons .button {
   margin: 0 8px;
   display: inline-flex;
   align-items: center;
   padding-top: 8px;
 }
 
-.sece-NewYearTraditions-wrap .buttons .btn-p6:not(:last-child),
-.sece-NewYearTraditions-wrap .buttons .button:not(:last-child) {
+.sece-main-wrap .buttons .btn-p6:not(:last-child),
+.sece-main-wrap .buttons .button:not(:last-child) {
   margin-bottom: 16px;
 }
 
-.sece-NewYearTraditions-wrap .buttons .btn-p6.btn-p6-small,
-.sece-NewYearTraditions-wrap .buttons .button.btn-p6-small {
+.sece-main-wrap .buttons .btn-p6.btn-p6-small,
+.sece-main-wrap .buttons .button.btn-p6-small {
   margin: 0 4px;
 }
 
-.sece-NewYearTraditions-wrap .buttons .btn-p6.btn-p6-small:not(:last-child),
-.sece-NewYearTraditions-wrap .buttons .button.btn-p6-small:not(:last-child) {
+.sece-main-wrap .buttons .btn-p6.btn-p6-small:not(:last-child),
+.sece-main-wrap .buttons .button.btn-p6-small:not(:last-child) {
   margin-bottom: 8px;
 }
 
-.sece-NewYearTraditions-wrap .background {
+.sece-main-wrap .background {
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -335,7 +342,7 @@ body {
   pointer-events: none;
 }
 
-.sece-NewYearTraditions-wrap .counter {
+.sece-main-wrap .counter {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
@@ -344,33 +351,33 @@ body {
   border-radius: 14px;
 }
 
-.sece-NewYearTraditions-wrap .panel {
+.sece-main-wrap .panel {
   width: 100%;
   margin-top: 74px;
 }
 
-.sece-NewYearTraditions-wrap .panel .panel-head {
+.sece-main-wrap .panel .panel-head {
   background-color: #000;
   color: #fff;
   padding: 26px;
 }
 
-.sece-NewYearTraditions-wrap .panel .panel-blue {
+.sece-main-wrap .panel .panel-blue {
   background-color: #2189ff;
 }
 
-.sece-NewYearTraditions-wrap .panel .panel-body {
+.sece-main-wrap .panel .panel-body {
   padding: 94px 97px;
   width: 100%;
   border: 1px solid #ddd;
 }
 
-.sece-NewYearTraditions-wrap img {
+.sece-main-wrap img {
   max-width: 100%;
   width: 100%;
 }
 
-.sece-NewYearTraditions-wrap .section {
+.sece-main-wrap .section {
   padding: 0;
   position: relative;
   font-size: 18px;
@@ -384,30 +391,30 @@ body {
   z-index: 1;
 }
 
-.sece-NewYearTraditions-wrap .section.section-invert {
+.sece-main-wrap .section.section-invert {
   color: #fff;
   background-color: #000;
 }
 
-.sece-NewYearTraditions-wrap .section.section-invert .btn-p6-encased {
+.sece-main-wrap .section.section-invert .btn-p6-encased {
   border-color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .section.section-invert .btn-p6-encased:hover {
+.sece-main-wrap .section.section-invert .btn-p6-encased:hover {
   color: #000;
   background-color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .section.section-invert .btn-p6-text-underline {
+.sece-main-wrap .section.section-invert .btn-p6-text-underline {
   border-color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .section>.wrapper {
+.sece-main-wrap .section>.wrapper {
   max-width: 1404px;
   margin: 0 auto;
 }
 
-.sece-NewYearTraditions-wrap .section .wrapper {
+.sece-main-wrap .section .wrapper {
   width: 100%;
   position: relative;
   display: flex;
@@ -417,19 +424,19 @@ body {
   align-items: center;
 }
 
-.sece-NewYearTraditions-wrap .section .wrapper.wrapper-reverse {
+.sece-main-wrap .section .wrapper.wrapper-reverse {
   flex-flow: row-reverse wrap;
 }
 
-.sece-NewYearTraditions-wrap .section .wrapper.wrapper-center {
+.sece-main-wrap .section .wrapper.wrapper-center {
   justify-content: center;
 }
 
-.sece-NewYearTraditions-wrap .section .col-break {
+.sece-main-wrap .section .col-break {
   flex-basis: 100%;
 }
 
-.sece-NewYearTraditions-wrap .section .col {
+.sece-main-wrap .section .col {
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 0px;
@@ -439,85 +446,85 @@ body {
   justify-content: flex-start;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-wrapper {
+.sece-main-wrap .section .col.col-wrapper {
   padding: 0;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-0 {
+.sece-main-wrap .section .col.col-0 {
   flex: 0 1 0%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-1 {
+.sece-main-wrap .section .col.col-1 {
   flex: 0 1 8.3333333333%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-2 {
+.sece-main-wrap .section .col.col-2 {
   flex: 0 1 16.6666666667%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-3 {
+.sece-main-wrap .section .col.col-3 {
   flex: 0 1 25%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-4 {
+.sece-main-wrap .section .col.col-4 {
   flex: 0 1 33.3333333333%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-5 {
+.sece-main-wrap .section .col.col-5 {
   flex: 0 1 41.6666666667%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-6 {
+.sece-main-wrap .section .col.col-6 {
   flex: 0 1 50%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-7 {
+.sece-main-wrap .section .col.col-7 {
   flex: 0 1 58.3333333333%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-8 {
+.sece-main-wrap .section .col.col-8 {
   flex: 0 1 66.6666666667%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-9 {
+.sece-main-wrap .section .col.col-9 {
   flex: 0 1 75%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-10 {
+.sece-main-wrap .section .col.col-10 {
   flex: 0 1 83.3333333333%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-11 {
+.sece-main-wrap .section .col.col-11 {
   flex: 0 1 91.6666666667%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-12 {
+.sece-main-wrap .section .col.col-12 {
   flex: 0 1 100%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-2-5 {
+.sece-main-wrap .section .col.col-2-5 {
   flex: 0 1 20%;
 }
 
-.sece-NewYearTraditions-wrap .section .col.col-3-75 {
+.sece-main-wrap .section .col.col-3-75 {
   flex: 0 1 37.5%;
 }
 
-.sece-NewYearTraditions-wrap .section .col-even .input-row {
+.sece-main-wrap .section .col-even .input-row {
   padding-left: 12px;
 }
 
-.sece-NewYearTraditions-wrap .section .col-odd .input-row {
+.sece-main-wrap .section .col-odd .input-row {
   padding-right: 12px;
 }
 
-.sece-NewYearTraditions-wrap .section .text-wrap {
+.sece-main-wrap .section .text-wrap {
   margin: 0 12px;
   flex: 1 1 auto;
   margin-top: 32px;
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature {
+.sece-main-wrap .section .text-feature {
   font-size: 14px;
   display: flex;
   flex-flow: column;
@@ -527,20 +534,20 @@ body {
   align-items: center;
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature .icon {
+.sece-main-wrap .section .text-feature .icon {
   width: 96px;
   height: 96px;
   cursor: default;
   margin-bottom: 0;
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature p {
+.sece-main-wrap .section .text-feature p {
   flex: 0 1 auto;
   font-size: 18px;
   margin-top: 8px;
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature.text-feature-1+.background {
+.sece-main-wrap .section .text-feature.text-feature-1+.background {
   width: 237px;
   height: 239px;
   left: 50%;
@@ -548,7 +555,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature.text-feature-2+.background {
+.sece-main-wrap .section .text-feature.text-feature-2+.background {
   width: 310px;
   height: 288px;
   left: 50%;
@@ -556,7 +563,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.sece-NewYearTraditions-wrap .section .text-feature.text-feature-3+.background {
+.sece-main-wrap .section .text-feature.text-feature-3+.background {
   width: 276px;
   height: 274px;
   left: 50%;
@@ -564,21 +571,21 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.sece-NewYearTraditions-wrap .section .text-center {
+.sece-main-wrap .section .text-center {
   text-align: center;
 }
 
-.sece-NewYearTraditions-wrap .section .text-right {
+.sece-main-wrap .section .text-right {
   text-align: right;
 }
 
-.sece-NewYearTraditions-wrap .section .subline {
+.sece-main-wrap .section .subline {
   margin-bottom: 56px;
   padding-bottom: 56px;
   position: relative;
 }
 
-.sece-NewYearTraditions-wrap .section .subline:after {
+.sece-main-wrap .section .subline:after {
   width: 165px;
   height: 2px;
   background-color: #000;
@@ -590,29 +597,15 @@ body {
   display: block;
 }
 
-.sece-NewYearTraditions-wrap .section .background {
+.sece-main-wrap .section .background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.sece-NewYearTraditions-wrap .disclaimer {
+.sece-main-wrap .disclaimer {
   font-size: 12px;
-}
-
-@-webkit-keyframes scaleInOut {
-  0% {
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
 }
 
 @keyframes scaleInOut {
@@ -629,16 +622,16 @@ body {
   }
 }
 
-.sece-NewYearTraditions-wrap *::-ms-backdrop,
-.sece-NewYearTraditions-wrap select {
+.sece-main-wrap *::-ms-backdrop,
+.sece-main-wrap select {
   background: #fff;
 }
 
-.sece-NewYearTraditions-wrap .section {
+.sece-main-wrap .section {
   padding: 32px 0;
 }
 
-.sece-NewYearTraditions-wrap .section .block-rc {
+.sece-main-wrap .section .block-rc {
   border-radius: 20px;
   overflow: hidden;
   display: flex;
@@ -648,161 +641,85 @@ body {
   background-color: #fff;
 }
 
-.sece-NewYearTraditions-wrap .section .block-rc img {
+.sece-main-wrap .section .block-rc img {
   width: 100%;
 }
 
-.sece-NewYearTraditions-wrap .section .block-bg-lpink {
+.sece-main-wrap .section .block-bg-lpink {
   background-color: #ede7e7;
 }
 
-.sece-NewYearTraditions-wrap .section .block-bg-lblue {
+.sece-main-wrap .section .block-bg-lblue {
   background-color: #d3edef;
 }
 
-.sece-NewYearTraditions-wrap .section .block-bg-gray {
+.sece-main-wrap .section .block-bg-gray {
   background-color: #f4f4f4;
 }
 
-.sece-NewYearTraditions-wrap .section .block-bg-lgray {
+.sece-main-wrap .section .block-bg-lgray {
   background-color: #ececec;
 }
 
-.sece-NewYearTraditions-wrap .section .block-bg-ldblue {
+.sece-main-wrap .section .block-bg-ldblue {
   background-color: #e2ebf0;
 }
 
-.sece-NewYearTraditions-wrap .section:last-child {
+.sece-main-wrap .section:last-child {
   padding-bottom: 72px;
 }
 
-.sece-NewYearTraditions-wrap .section .wrapper .text-padded {
+.sece-main-wrap .section .wrapper .text-padded {
   padding-left: 64px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-hero {
-  height: 640px;
+.sece-main-wrap .section.section-example {
+  height: 600px;
   margin-bottom: 0;
   padding: 160px 0;
   align-items: flex-start;
 }
 
-.sece-NewYearTraditions-wrap .section.section-hero .text-wrap {
+.sece-main-wrap .section.section-example .text-wrap {
   margin: 0;
 }
 
-.sece-NewYearTraditions-wrap .section.section-hero .background {
+.sece-main-wrap .section.section-example .background {
   height: 100%;
 }
 
-.sece-NewYearTraditions-wrap .section.section-winners .wrapper {
+.sece-main-wrap .section.section-form {
   align-items: flex-start;
-}
-
-.sece-NewYearTraditions-wrap .section.section-winners .wrapper .text-wrap {
-  margin-top: 32px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-winners .wrapper ul {
-  margin-top: 16px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-howto .wrapper {
-  align-items: flex-start;
-}
-
-.sece-NewYearTraditions-wrap .section.section-howto .block-rc {
-  padding: 24px 0;
-}
-
-.sece-NewYearTraditions-wrap .section.section-about .background {
-  height: 3721px;
-  width: 1440px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-form {
-  align-items: flex-start;
-  background-color: #f5f7fe;
+  background-color: #f7f7f7;
   border-radius: 32px;
   padding: 80px 0;
   margin: 32px auto;
 }
 
-.sece-NewYearTraditions-wrap .section.section-form form.col {
+.sece-main-wrap .section.section-form form.col {
   align-items: flex-start;
 }
 
-.sece-NewYearTraditions-wrap .section.section-form .wrapper {
+.sece-main-wrap .section.section-form .wrapper {
   align-items: flex-start;
 }
 
-.sece-NewYearTraditions-wrap .section.section-form h2 {
+.sece-main-wrap .section.section-form h2 {
   font-size: 32px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-form .text-wrap {
+.sece-main-wrap .section.section-form .text-wrap {
   margin-top: 0;
 }
 
-.sece-NewYearTraditions-wrap .section.section-traditions .col-traditions-empty {
-  display: none;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions.is_empty .col-traditions-empty {
-  display: flex;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions.is_empty .wrapper-stories {
-  display: none;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .wrapper-stories {
-  padding-top: 32px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story {
-  width: 25%;
-  padding: 12px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story .block-rc {
-  display: flex;
-  flex-flow: column-reverse;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story .block-rc h3 {
-  margin-top: 16px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(n) .block-rc,
-.sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(3n) .block-rc {
-  background-color: #f4f7fe;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(2n) .block-rc {
-  background-color: #f8eef5;
-}
-
-.sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(4n) .block-rc {
-  background-color: #fef6f3;
-}
-
-.sece-NewYearTraditions-wrap .section.section-presents .wrapper {
-  align-items: stretch;
-}
-
-.sece-NewYearTraditions-wrap .section.section-presents .col-3 {
-  margin-top: 8px;
-}
-
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item {
+.sece-main-wrap .section.section-faq .faq-item {
   margin-top: 0;
   padding: 18px 0;
   border-top: 1px solid #ddd;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus,
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .arrow {
+.sece-main-wrap .section.section-faq .faq-item .plus-minus,
+.sece-main-wrap .section.section-faq .faq-item .arrow {
   width: 32px;
   height: 32px;
   transform-origin: 50% 50%;
@@ -811,15 +728,15 @@ body {
   flex: 0 0 32px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus .plus {
+.sece-main-wrap .section.section-faq .faq-item .plus-minus .plus {
   display: none;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus .minus {
+.sece-main-wrap .section.section-faq .faq-item .plus-minus .minus {
   display: block;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question {
+.sece-main-wrap .section.section-faq .faq-item .faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -827,13 +744,13 @@ body {
   padding-left: 28px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question .index {
+.sece-main-wrap .section.section-faq .faq-item .faq-question .index {
   margin-left: -28px;
   width: 28px;
   display: inline-block;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer {
+.sece-main-wrap .section.section-faq .faq-item .faq-answer {
   max-height: 999px;
   overflow: hidden;
   opacity: 1;
@@ -842,38 +759,38 @@ body {
   padding-right: 28px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer p {
+.sece-main-wrap .section.section-faq .faq-item .faq-answer p {
   margin-top: 0;
   font-size: 18px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .plus {
+.sece-main-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .plus {
   display: block;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .minus {
+.sece-main-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .minus {
   display: none;
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .arrow {
+.sece-main-wrap .section.section-faq .faq-item.is_collapsed .arrow {
   transform: rotate(0deg);
 }
 
-.sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .faq-answer {
+.sece-main-wrap .section.section-faq .faq-item.is_collapsed .faq-answer {
   max-height: 0;
   opacity: 0;
   transition: max-height 10ms,opacity 10ms;
 }
 
-.sece-NewYearTraditions-wrap .partners {
+.sece-main-wrap .partners {
   display: flex;
   flex-flow: row wrap;
   padding-top: 32px;
 }
 
-.sece-NewYearTraditions-wrap .partner {
+.sece-main-wrap .partner {
   flex: 0 1 auto;
   width: 150px;
   height: 48px;
@@ -885,12 +802,12 @@ body {
   margin: 10px 4px 0;
 }
 
-.sece-NewYearTraditions-wrap .partner img {
+.sece-main-wrap .partner img {
   width: 100%;
   height: 100%;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap {
+.sece-main-wrap .popup-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -903,11 +820,11 @@ body {
   color: #000;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap.is_hidden {
+.sece-main-wrap .popup-wrap.is_hidden {
   display: none;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap:before {
+.sece-main-wrap .popup-wrap:before {
   content: " ";
   display: block;
   width: 100%;
@@ -921,7 +838,7 @@ body {
   flex: 0;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup {
+.sece-main-wrap .popup-wrap .popup {
   border-radius: 16px;
   max-width: 488px;
   padding: 24px;
@@ -933,13 +850,13 @@ body {
   overflow: hidden;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .icon-success {
+.sece-main-wrap .popup-wrap .icon-success {
   width: 48px;
   height: 48px;
   margin: 0;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-title {
+.sece-main-wrap .popup-wrap .popup-title {
   padding: 0;
   font-size: 22px;
   position: absolute;
@@ -948,7 +865,7 @@ body {
   width: auto;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-close {
+.sece-main-wrap .popup-wrap .popup-close {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -958,12 +875,12 @@ body {
   cursor: pointer;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-close svg {
+.sece-main-wrap .popup-wrap .popup-close svg {
   width: 100%;
   height: 100%;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content {
+.sece-main-wrap .popup-wrap .popup-content {
   width: 100%;
   text-align: center;
   position: relative;
@@ -973,11 +890,11 @@ body {
   padding-top: 50px;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content .btn-p6-encased {
+.sece-main-wrap .popup-wrap .popup-content .btn-p6-encased {
   cursor: pointer;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text {
+.sece-main-wrap .popup-wrap .popup-content .popup-text {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -985,46 +902,155 @@ body {
   overflow: hidden;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text p {
+.sece-main-wrap .popup-wrap .popup-content .popup-text p {
   font-size: 16px;
 }
 
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content .buttons-answers .btn-p6-black:hover,
-.sece-NewYearTraditions-wrap .popup-wrap .popup-content .buttons-answers .btn-p6-black:focus {
-  background-color: #000;
-  color: #fff;
-}
-
-.sece-NewYearTraditions-wrap form {
+.sece-main-wrap form {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
-.sece-NewYearTraditions-wrap form .text-wrap {
+.sece-main-wrap form .text-wrap {
   margin-top: 0;
 }
 
-.sece-NewYearTraditions-wrap .note {
+.sece-main-wrap form.form-steps .input-step {
+  display: none;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="0"] .input-step[data-step="0"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="1"] .input-step[data-step="1"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="2"] .input-step[data-step="2"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="3"] .input-step[data-step="3"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="4"] .input-step[data-step="4"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="5"] .input-step[data-step="5"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="6"] .input-step[data-step="6"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="7"] .input-step[data-step="7"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="8"] .input-step[data-step="8"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="9"] .input-step[data-step="9"] {
+  display: block;
+}
+
+.sece-main-wrap form.form-steps.form-steps[data-step="10"] .input-step[data-step="10"] {
+  display: block;
+}
+
+.sece-main-wrap .form-input {
+  font-size: 14px;
+}
+
+.sece-main-wrap .form-input ::-moz-placeholder {
+  font-size: 14px;
+}
+
+.sece-main-wrap .form-input ::placeholder {
+  font-size: 14px;
+}
+
+.sece-main-wrap .form-submit {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sece-main-wrap .form-submit .buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sece-main-wrap .form-select {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  padding: 14px 24px;
+  font-size: 14px;
+}
+
+.sece-main-wrap .form-select .error {
+  border: 1px solid red;
+}
+
+.sece-main-wrap .form-file {
+  display: none;
+}
+
+.sece-main-wrap .form-file-select {
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.sece-main-wrap .form-file-img {
+  margin: 12px 0 0 8px;
+  position: absolute;
+  font-size: 12px;
+}
+
+.sece-main-wrap .form-file-img .error {
+  color: red;
+}
+
+.sece-main-wrap .checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.sece-main-wrap .note {
   color: #979797;
   align-self: flex-end;
 }
 
-.sece-NewYearTraditions-wrap .message-error {
+.sece-main-wrap .message-error {
   color: red;
   font-size: 12px;
   margin-top: 8px;
 }
 
-.sece-NewYearTraditions-wrap .message-error:empty {
+.sece-main-wrap .message-error:empty {
   margin-top: 0;
 }
 
-.sece-NewYearTraditions-wrap .note {
+.sece-main-wrap .form-select.error {
+  border: 1px solid red;
+}
+
+.sece-main-wrap .note {
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .label {
+.sece-main-wrap .label {
   line-height: 1.2;
   padding: 0;
   display: block;
@@ -1034,7 +1060,7 @@ body {
   white-space: nowrap;
 }
 
-.sece-NewYearTraditions-wrap .input-row {
+.sece-main-wrap .input-row {
   text-align: left;
   position: relative;
   margin-top: 16px;
@@ -1042,30 +1068,43 @@ body {
   padding-top: 16px;
 }
 
-.sece-NewYearTraditions-wrap .input-row label {
+.sece-main-wrap .input-row label {
   position: relative;
 }
 
-.sece-NewYearTraditions-wrap .input-row.has-error .error {
+.sece-main-wrap .input-row.has-error .error {
   opacity: 1;
 }
 
-.sece-NewYearTraditions-wrap .input-row .note {
+.sece-main-wrap .input-row .note {
   color: #8f8f8f;
   padding-left: 24px;
 }
 
-.sece-NewYearTraditions-wrap select,
-.sece-NewYearTraditions-wrap input[type=text],
-.sece-NewYearTraditions-wrap input[type=tel],
-.sece-NewYearTraditions-wrap input[type=number],
-.sece-NewYearTraditions-wrap input[type=password],
-.sece-NewYearTraditions-wrap input[type=email] {
+.sece-main-wrap .input-row.input-checkboxes .input-row,
+.sece-main-wrap .input-row.input-radio .input-row {
+  display: flex;
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.sece-main-wrap .input-row.input-checkboxes .input-row input,
+.sece-main-wrap .input-row.input-radio .input-row input {
+  flex: 0 0 auto;
+  margin-right: 8px;
+}
+
+.sece-main-wrap select,
+.sece-main-wrap input[type=text],
+.sece-main-wrap input[type=tel],
+.sece-main-wrap input[type=number],
+.sece-main-wrap input[type=password],
+.sece-main-wrap input[type=email] {
   outline: none;
   min-width: 100%;
   border: 0;
   border-bottom: 1px solid #bbb;
-  background: transparent;
+  background: rgba(0,0,0,0);
   position: relative;
   text-align: left;
   font-size: 18px;
@@ -1074,113 +1113,214 @@ body {
   width: 100%;
 }
 
-.sece-NewYearTraditions-wrap select:-webkit-autofill,
-.sece-NewYearTraditions-wrap select:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill {
-  box-shadow: 0 0 0px 1000px #fff inset;
+.sece-main-wrap select:-webkit-autofill,
+.sece-main-wrap select:-webkit-autofill,
+.sece-main-wrap input[type=text]:-webkit-autofill,
+.sece-main-wrap input[type=text]:-webkit-autofill,
+.sece-main-wrap input[type=tel]:-webkit-autofill,
+.sece-main-wrap input[type=tel]:-webkit-autofill,
+.sece-main-wrap input[type=number]:-webkit-autofill,
+.sece-main-wrap input[type=number]:-webkit-autofill,
+.sece-main-wrap input[type=password]:-webkit-autofill,
+.sece-main-wrap input[type=password]:-webkit-autofill,
+.sece-main-wrap input[type=email]:-webkit-autofill,
+.sece-main-wrap input[type=email]:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #f7f7f7 inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
-.sece-NewYearTraditions-wrap select:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap select:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap select:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap select:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:focus,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:hover,
-.sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:focus {
-  box-shadow: 0 0 0px 1000px #fff inset;
+.sece-main-wrap select:-webkit-autofill:hover,
+.sece-main-wrap select:-webkit-autofill:focus,
+.sece-main-wrap select:-webkit-autofill:hover,
+.sece-main-wrap select:-webkit-autofill:focus,
+.sece-main-wrap input[type=text]:-webkit-autofill:hover,
+.sece-main-wrap input[type=text]:-webkit-autofill:focus,
+.sece-main-wrap input[type=text]:-webkit-autofill:hover,
+.sece-main-wrap input[type=text]:-webkit-autofill:focus,
+.sece-main-wrap input[type=tel]:-webkit-autofill:hover,
+.sece-main-wrap input[type=tel]:-webkit-autofill:focus,
+.sece-main-wrap input[type=tel]:-webkit-autofill:hover,
+.sece-main-wrap input[type=tel]:-webkit-autofill:focus,
+.sece-main-wrap input[type=number]:-webkit-autofill:hover,
+.sece-main-wrap input[type=number]:-webkit-autofill:focus,
+.sece-main-wrap input[type=number]:-webkit-autofill:hover,
+.sece-main-wrap input[type=number]:-webkit-autofill:focus,
+.sece-main-wrap input[type=password]:-webkit-autofill:hover,
+.sece-main-wrap input[type=password]:-webkit-autofill:focus,
+.sece-main-wrap input[type=password]:-webkit-autofill:hover,
+.sece-main-wrap input[type=password]:-webkit-autofill:focus,
+.sece-main-wrap input[type=email]:-webkit-autofill:hover,
+.sece-main-wrap input[type=email]:-webkit-autofill:focus,
+.sece-main-wrap input[type=email]:-webkit-autofill:hover,
+.sece-main-wrap input[type=email]:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px #f7f7f7 inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
-.sece-NewYearTraditions-wrap select:focus,
-.sece-NewYearTraditions-wrap input[type=text]:focus,
-.sece-NewYearTraditions-wrap input[type=tel]:focus,
-.sece-NewYearTraditions-wrap input[type=number]:focus,
-.sece-NewYearTraditions-wrap input[type=password]:focus,
-.sece-NewYearTraditions-wrap input[type=email]:focus {
+.sece-main-wrap select:focus,
+.sece-main-wrap input[type=text]:focus,
+.sece-main-wrap input[type=tel]:focus,
+.sece-main-wrap input[type=number]:focus,
+.sece-main-wrap input[type=password]:focus,
+.sece-main-wrap input[type=email]:focus {
   border-bottom: 1px solid #0091ff;
   box-shadow: inset 0 -1px 0 #0091ff;
 }
 
-.sece-NewYearTraditions-wrap select:invalid,
-.sece-NewYearTraditions-wrap select.error,
-.sece-NewYearTraditions-wrap input[type=text]:invalid,
-.sece-NewYearTraditions-wrap input[type=text].error,
-.sece-NewYearTraditions-wrap input[type=tel]:invalid,
-.sece-NewYearTraditions-wrap input[type=tel].error,
-.sece-NewYearTraditions-wrap input[type=number]:invalid,
-.sece-NewYearTraditions-wrap input[type=number].error,
-.sece-NewYearTraditions-wrap input[type=password]:invalid,
-.sece-NewYearTraditions-wrap input[type=password].error,
-.sece-NewYearTraditions-wrap input[type=email]:invalid,
-.sece-NewYearTraditions-wrap input[type=email].error {
+.sece-main-wrap select:invalid,
+.sece-main-wrap select.error,
+.sece-main-wrap input[type=text]:invalid,
+.sece-main-wrap input[type=text].error,
+.sece-main-wrap input[type=tel]:invalid,
+.sece-main-wrap input[type=tel].error,
+.sece-main-wrap input[type=number]:invalid,
+.sece-main-wrap input[type=number].error,
+.sece-main-wrap input[type=password]:invalid,
+.sece-main-wrap input[type=password].error,
+.sece-main-wrap input[type=email]:invalid,
+.sece-main-wrap input[type=email].error {
   border-bottom: 1px solid red;
 }
 
-.sece-NewYearTraditions-wrap select:invalid+.label,
-.sece-NewYearTraditions-wrap select.error+.label,
-.sece-NewYearTraditions-wrap input[type=text]:invalid+.label,
-.sece-NewYearTraditions-wrap input[type=text].error+.label,
-.sece-NewYearTraditions-wrap input[type=tel]:invalid+.label,
-.sece-NewYearTraditions-wrap input[type=tel].error+.label,
-.sece-NewYearTraditions-wrap input[type=number]:invalid+.label,
-.sece-NewYearTraditions-wrap input[type=number].error+.label,
-.sece-NewYearTraditions-wrap input[type=password]:invalid+.label,
-.sece-NewYearTraditions-wrap input[type=password].error+.label,
-.sece-NewYearTraditions-wrap input[type=email]:invalid+.label,
-.sece-NewYearTraditions-wrap input[type=email].error+.label {
+.sece-main-wrap select:invalid+.label,
+.sece-main-wrap select.error+.label,
+.sece-main-wrap input[type=text]:invalid+.label,
+.sece-main-wrap input[type=text].error+.label,
+.sece-main-wrap input[type=tel]:invalid+.label,
+.sece-main-wrap input[type=tel].error+.label,
+.sece-main-wrap input[type=number]:invalid+.label,
+.sece-main-wrap input[type=number].error+.label,
+.sece-main-wrap input[type=password]:invalid+.label,
+.sece-main-wrap input[type=password].error+.label,
+.sece-main-wrap input[type=email]:invalid+.label,
+.sece-main-wrap input[type=email].error+.label {
   color: red;
 }
 
-.sece-NewYearTraditions-wrap select option {
+.sece-main-wrap select option {
   background-color: #fff;
 }
 
-.sece-NewYearTraditions-wrap input[type=checkbox] {
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  color: #000;
+.sece-main-wrap .select-wrapper {
+  position: relative;
+}
+
+.sece-main-wrap .select-open {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  pointer-events: none;
+}
+
+.sece-main-wrap input[type=checkbox],
+.sece-main-wrap input[type=radio] {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-right: 8px;
+  background-color: rgba(0,0,0,0);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 0;
+  border: 1px solid #555;
   border-radius: 50%;
+  transform: translateY(-0.075em);
   overflow: hidden;
-  -webkit-appearance: checkbox;
 }
 
-.sece-NewYearTraditions-wrap input[type=file] {
-  background: transparent;
+.sece-main-wrap input[type=checkbox]:disabled,
+.sece-main-wrap input[type=radio]:disabled {
+  border: 1px solid #ddd;
 }
 
-.sece-NewYearTraditions-wrap textarea {
+.sece-main-wrap input[type=checkbox]:checked,
+.sece-main-wrap input[type=radio]:checked {
+  border: 1px solid #2189ff;
+  background-color: #2189ff;
+}
+
+.sece-main-wrap input[type=checkbox]:checked::before,
+.sece-main-wrap input[type=radio]:checked::before {
+  display: block;
+}
+
+.sece-main-wrap input[type=checkbox]:checked:hover:not([disabled]),
+.sece-main-wrap input[type=radio]:checked:hover:not([disabled]) {
+  border: 1px solid #006ff2;
+  background-color: #006ff2;
+}
+
+.sece-main-wrap input[type=checkbox]:checked:hover:not([disabled])::before,
+.sece-main-wrap input[type=radio]:checked:hover:not([disabled])::before {
+  background-color: #006ff2;
+}
+
+.sece-main-wrap input[type=checkbox]:checked:disabled,
+.sece-main-wrap input[type=radio]:checked:disabled {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+.sece-main-wrap input[type=checkbox]:checked:disabled::before,
+.sece-main-wrap input[type=radio]:checked:disabled::before {
+  background-color: #ddd;
+}
+
+.sece-main-wrap input[type=checkbox]::before {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  background-color: #2189ff;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.sece-main-wrap input[type=checkbox]:hover:not([disabled]) {
+  background-color: rgba(0,111,242,.08);
+  border: 1px solid #006ff2;
+}
+
+.sece-main-wrap input[type=radio]::before {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 14px;
+  height: 14px;
+  background-color: #2189ff;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sece-main-wrap input[type=radio]:hover:not([disabled]) {
+  border: 1px solid #006ff2;
+}
+
+.sece-main-wrap input[type=radio]:checked+span {
+  color: #000;
+}
+
+.sece-main-wrap input[type=file] {
+  background: rgba(0,0,0,0);
+}
+
+.sece-main-wrap textarea {
   border-radius: 6px;
-  background: transparent;
+  background: rgba(0,0,0,0);
   border: 1px solid #8f8f8f;
   resize: none;
   width: 100%;
@@ -1189,17 +1329,17 @@ body {
   min-height: 132px;
 }
 
-.sece-NewYearTraditions-wrap textarea:invalid,
-.sece-NewYearTraditions-wrap textarea.error {
+.sece-main-wrap textarea:invalid,
+.sece-main-wrap textarea.error {
   border: 1px solid red;
 }
 
-.sece-NewYearTraditions-wrap textarea:invalid+.label,
-.sece-NewYearTraditions-wrap textarea.error+.label {
+.sece-main-wrap textarea:invalid+.label,
+.sece-main-wrap textarea.error+.label {
   color: red;
 }
 
-.sece-NewYearTraditions-wrap .text-counter {
+.sece-main-wrap .text-counter {
   font-size: 14px;
   text-align: right;
   margin-top: 6px;
@@ -1207,115 +1347,121 @@ body {
   color: #979797;
 }
 
-.sece-NewYearTraditions-wrap .input-row input:focus {
+.sece-main-wrap .input-row input:focus {
   border-bottom: 1px solid #0091ff;
   box-shadow: inset 0 -1px 0 #0091ff;
 }
 
-.sece-NewYearTraditions-wrap .input-row input:focus+.label {
+.sece-main-wrap .input-row input:focus+.label {
   color: #0091ff;
 }
 
-.sece-NewYearTraditions-wrap .input-row .buttons {
+.sece-main-wrap .input-row .buttons {
   width: 100%;
-  justify-content: space-between;
 }
 
-.sece-NewYearTraditions-wrap .input-tel label,
-.sece-NewYearTraditions-wrap .input-password label,
-.sece-NewYearTraditions-wrap .input-email label,
-.sece-NewYearTraditions-wrap .input-text label {
+.sece-main-wrap .input-tel label,
+.sece-main-wrap .input-password label,
+.sece-main-wrap .input-email label,
+.sece-main-wrap .input-text label {
   padding-top: 22px;
 }
 
-.sece-NewYearTraditions-wrap .input-tel .label,
-.sece-NewYearTraditions-wrap .input-password .label,
-.sece-NewYearTraditions-wrap .input-email .label,
-.sece-NewYearTraditions-wrap .input-text .label {
+.sece-main-wrap .input-tel .label,
+.sece-main-wrap .input-password .label,
+.sece-main-wrap .input-email .label,
+.sece-main-wrap .input-text .label {
   position: absolute;
   top: 22px;
   left: 0;
   pointer-events: none;
 }
 
-.sece-NewYearTraditions-wrap .input-tel .note,
-.sece-NewYearTraditions-wrap .input-password .note,
-.sece-NewYearTraditions-wrap .input-email .note,
-.sece-NewYearTraditions-wrap .input-text .note {
+.sece-main-wrap .input-tel .note,
+.sece-main-wrap .input-password .note,
+.sece-main-wrap .input-email .note,
+.sece-main-wrap .input-text .note {
   position: absolute;
   left: 100%;
   top: 0;
   width: 100%;
 }
 
-.sece-NewYearTraditions-wrap .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-password input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-email input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-text input:not(:-moz-placeholder-shown)+.label {
+.sece-main-wrap .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-password input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-email input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-text input:not(:-moz-placeholder-shown)+.label {
   -moz-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(0, -100%);
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .input-tel input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-password input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-email input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-text input:not(:-ms-input-placeholder)+.label {
-  -ms-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
+.sece-main-wrap .input-tel input:not(:placeholder-shown)+.label,
+.sece-main-wrap .input-tel input:focus+.label,
+.sece-main-wrap .input-password input:not(:placeholder-shown)+.label,
+.sece-main-wrap .input-password input:focus+.label,
+.sece-main-wrap .input-email input:not(:placeholder-shown)+.label,
+.sece-main-wrap .input-email input:focus+.label,
+.sece-main-wrap .input-text input:not(:placeholder-shown)+.label,
+.sece-main-wrap .input-text input:focus+.label {
   transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(0, -100%);
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .input-tel input:not(:placeholder-shown)+.label,
-.sece-NewYearTraditions-wrap .input-tel input:focus+.label,
-.sece-NewYearTraditions-wrap .input-password input:not(:placeholder-shown)+.label,
-.sece-NewYearTraditions-wrap .input-password input:focus+.label,
-.sece-NewYearTraditions-wrap .input-email input:not(:placeholder-shown)+.label,
-.sece-NewYearTraditions-wrap .input-email input:focus+.label,
-.sece-NewYearTraditions-wrap .input-text input:not(:placeholder-shown)+.label,
-.sece-NewYearTraditions-wrap .input-text input:focus+.label {
-  transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translate(0, -100%);
-  font-size: 14px;
-}
-
-.sece-NewYearTraditions-wrap .input-tel input:-webkit-autofill+.label,
-.sece-NewYearTraditions-wrap .input-password input:-webkit-autofill+.label,
-.sece-NewYearTraditions-wrap .input-email input:-webkit-autofill+.label,
-.sece-NewYearTraditions-wrap .input-text input:-webkit-autofill+.label {
+.sece-main-wrap .input-tel input:-webkit-autofill+.label,
+.sece-main-wrap .input-password input:-webkit-autofill+.label,
+.sece-main-wrap .input-email input:-webkit-autofill+.label,
+.sece-main-wrap .input-text input:-webkit-autofill+.label {
   -webkit-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(0, -100%);
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .input-selector label,
-.sece-NewYearTraditions-wrap .input-number label {
+.sece-main-wrap .input-selector label,
+.sece-main-wrap .input-number label {
   margin-top: 16px;
   color: #8f8f8f;
   font-size: 18px;
   height: 30px;
 }
 
-.sece-NewYearTraditions-wrap .input-checkbox input {
+.sece-main-wrap .input-checkbox input {
   float: left;
   overflow: hidden;
 }
 
-.sece-NewYearTraditions-wrap .input-checkbox label {
+.sece-main-wrap .input-checkbox label {
+  margin-top: 3px;
   margin-left: 30px;
   display: block;
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .input-checkbox label a {
+.sece-main-wrap .input-checkbox label a {
   text-decoration: underline;
 }
 
-.sece-NewYearTraditions-wrap .input-selector {
+.sece-main-wrap .input-radio label {
+  margin-bottom: 8px;
+}
+
+.sece-main-wrap .input-radio label:first-of-type {
+  margin-bottom: 16px;
+  color: #000;
+}
+
+.sece-main-wrap .input-radio span {
+  margin-left: 5px;
+}
+
+.sece-main-wrap .input-selector {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   cursor: pointer;
 }
 
-.sece-NewYearTraditions-wrap .input-selector .item {
+.sece-main-wrap .input-selector .item {
   border: 1px solid #ddd;
   border-radius: 6px;
   width: 192px;
@@ -1327,103 +1473,103 @@ body {
   font-size: 14px;
 }
 
-.sece-NewYearTraditions-wrap .input-selector .item:hover,
-.sece-NewYearTraditions-wrap .input-selector .item.is_selected {
+.sece-main-wrap .input-selector .item:hover,
+.sece-main-wrap .input-selector .item.is_selected {
   border: 2px solid #0091ff;
   font-weight: bold;
 }
 
-.sece-NewYearTraditions-wrap *::-ms-backdrop,
-.sece-NewYearTraditions-wrap select {
+.sece-main-wrap *::-ms-backdrop,
+.sece-main-wrap select {
   background: #fff;
 }
 
 @media (max-width: 768px) {
-  .sece-NewYearTraditions-wrap {
+  .sece-main-wrap {
     font-size: 5vw;
   }
 
-  .sece-NewYearTraditions-wrap .desktop-only {
+  .sece-main-wrap .desktop-only {
     display: none !important;
   }
 
-  .sece-NewYearTraditions-wrap .mobile-only {
+  .sece-main-wrap .mobile-only {
     display: block !important;
   }
 
-  .sece-NewYearTraditions-wrap h1:not(:first-child),
-  .sece-NewYearTraditions-wrap h2:not(:first-child),
-  .sece-NewYearTraditions-wrap h3:not(:first-child),
-  .sece-NewYearTraditions-wrap h4:not(:first-child),
-  .sece-NewYearTraditions-wrap h5:not(:first-child),
-  .sece-NewYearTraditions-wrap h6:not(:first-child) {
+  .sece-main-wrap h1:not(:first-child),
+  .sece-main-wrap h2:not(:first-child),
+  .sece-main-wrap h3:not(:first-child),
+  .sece-main-wrap h4:not(:first-child),
+  .sece-main-wrap h5:not(:first-child),
+  .sece-main-wrap h6:not(:first-child) {
     margin: 2.2222222222vw 0 0;
   }
 
-  .sece-NewYearTraditions-wrap h1 {
+  .sece-main-wrap h1 {
     font-size: 8.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap h2 {
+  .sece-main-wrap h2 {
     font-size: 7.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap h3 {
+  .sece-main-wrap h3 {
     font-size: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap h4 {
+  .sece-main-wrap h4 {
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap h5 {
+  .sece-main-wrap h5 {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap h6 {
+  .sece-main-wrap h6 {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2 {
+  .sece-main-wrap.sece-language-kz h2 {
     font-size: 5.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2.bigger {
+  .sece-main-wrap.sece-language-kz h2.bigger {
     font-size: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .prenote {
+  .sece-main-wrap .prenote {
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap p {
+  .sece-main-wrap p {
     font-size: 3.8888888889vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .video-frame,
-  .sece-NewYearTraditions-wrap .image-frame {
+  .sece-main-wrap .video-frame,
+  .sece-main-wrap .image-frame {
     margin-top: 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap ol {
+  .sece-main-wrap ol {
     padding-left: 5.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap ol li {
+  .sece-main-wrap ol li {
     font-size: 5.5555555556vw;
     padding-left: 1.3888888889vw;
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap ul {
+  .sece-main-wrap ul {
     margin: 0 0 2.7777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-white,
-  .sece-NewYearTraditions-wrap .btn-p6-encased,
-  .sece-NewYearTraditions-wrap .btn-p6-blue,
-  .sece-NewYearTraditions-wrap .btn-p6-black {
+  .sece-main-wrap .btn-p6-white,
+  .sece-main-wrap .btn-p6-encased,
+  .sece-main-wrap .btn-p6-blue,
+  .sece-main-wrap .btn-p6-black {
     min-height: 11.1111111111vw;
     height: auto;
     border-radius: 11.1111111111vw;
@@ -1431,13 +1577,13 @@ body {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6 .trailing-icon {
+  .sece-main-wrap .btn-p6 .trailing-icon {
     width: 4.4444444444vw;
     height: 4.4444444444vw;
     margin: 0 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text-underline {
+  .sece-main-wrap .btn-p6-text-underline {
     font-size: 3.8888888889vw;
     height: auto;
     padding: 2.2222222222vw 0 0.8333333333vw 0;
@@ -1445,27 +1591,27 @@ body {
     margin-bottom: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-small {
+  .sece-main-wrap .btn-p6-small {
     height: 7.7777777778vw;
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text {
+  .sece-main-wrap .btn-p6-text {
     font-size: 3.8888888889vw;
     height: auto;
     padding: 2.2222222222vw 0 0.8333333333vw 0;
     margin-bottom: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6:focus {
+  .sece-main-wrap .btn-p6:focus {
     outline: none;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 4.4444444444vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col {
+  .sece-main-wrap .section .col {
     display: flex;
     flex-flow: row wrap;
     flex: 0 0 0vw;
@@ -1476,432 +1622,385 @@ body {
     padding: 0 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-wrapper {
+  .sece-main-wrap .section .col.col-wrapper {
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-0 {
+  .sece-main-wrap .section .col.col-0 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-1 {
-    flex: 1 0 100%;
-    padding: 0;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
-    flex: 0 1 50%;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
-    flex: 1 0 100%;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-2 {
+  .sece-main-wrap .section .col.col-1 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3 {
+  .sece-main-wrap .section .col.col-2 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-4 {
+  .sece-main-wrap .section .col.col-3 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-5 {
+  .sece-main-wrap .section .col.col-4 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-6 {
+  .sece-main-wrap .section .col.col-5 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-7 {
+  .sece-main-wrap .section .col.col-6 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-8 {
+  .sece-main-wrap .section .col.col-7 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-9 {
+  .sece-main-wrap .section .col.col-8 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-10 {
+  .sece-main-wrap .section .col.col-9 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-11 {
+  .sece-main-wrap .section .col.col-10 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-12 {
+  .sece-main-wrap .section .col.col-11 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper {
+  .sece-main-wrap .section .col.col-12 {
+    flex: 1 0 100%;
+    padding: 0;
+  }
+
+  .sece-main-wrap .section .col.col-2-5 {
+    flex: 0 1 50%;
+  }
+
+  .sece-main-wrap .section .col.col-3-75 {
+    flex: 1 0 100%;
+  }
+
+  .sece-main-wrap .section .wrapper {
     width: 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section>.wrapper {
+  .sece-main-wrap .section>.wrapper {
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-even .input-row {
+  .sece-main-wrap .section .col-even .input-row {
     padding-left: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-odd .input-row {
+  .sece-main-wrap .section .col-odd .input-row {
     padding-right: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-wrap {
+  .sece-main-wrap .section .text-wrap {
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline {
+  .sece-main-wrap .section .subline {
     margin-top: 8.8888888889vw;
     margin-bottom: 15.5555555556vw;
     padding-bottom: 15.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline:after {
+  .sece-main-wrap .section .subline:after {
     width: 45.8333333333vw;
     height: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model img {
+  .sece-main-wrap .section .text-model img {
     margin-top: 8.8888888889vw;
     margin-bottom: 8.8888888889vw;
     width: 58.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model .btn-p6 {
+  .sece-main-wrap .section .text-model .btn-p6 {
     margin-top: 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model h4 {
+  .sece-main-wrap .section .text-model h4 {
     padding-left: 6.6666666667vw;
     padding-right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons {
+  .sece-main-wrap .buttons {
     margin: 6.6666666667vw 0 0 -2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6 {
+  .sece-main-wrap .buttons .btn-p6 {
     margin: 0 2.2222222222vw;
     display: inline-flex;
     align-items: center;
     padding-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons.btn-p6-small {
+  .sece-main-wrap .buttons.btn-p6-small {
     margin: 0 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons.btn-p6-small:not(:last-child) {
+  .sece-main-wrap .buttons.btn-p6-small:not(:last-child) {
     margin-bottom: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6-black:first-child {
+  .sece-main-wrap .buttons .btn-p6-black:first-child {
     margin: 0 2.2222222222vw 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 6.6666666667vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-rc {
+  .sece-main-wrap .section .block-rc {
     border-radius: 5.5555555556vw;
     padding: 6.6666666667vw 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section:last-child {
+  .sece-main-wrap .section:last-child {
     padding-bottom: 6.6666666667vw 0 0 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .buttons {
+  .sece-main-wrap .section .buttons {
     margin-bottom: 8.8888888889vw;
     margin-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper .text-padded {
+  .sece-main-wrap .section .wrapper .text-padded {
     padding-left: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper:last-child {
+  .sece-main-wrap .section .wrapper:last-child {
     padding-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-wrap {
+  .sece-main-wrap .section .text-wrap {
     margin: 6.6666666667vw 0 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature {
+  .sece-main-wrap .section .text-feature {
     font-size: 3.8888888889vw;
     margin-top: 6.6666666667vw;
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature p {
+  .sece-main-wrap .section .text-feature p {
     font-size: 5vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature .icon {
+  .sece-main-wrap .section .text-feature .icon {
     width: 15.5555555556vw;
     height: 15.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-1+.background {
+  .sece-main-wrap .section .text-feature.text-feature-1+.background {
     width: 40.5555555556vw;
     height: 35.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-2+.background {
+  .sece-main-wrap .section .text-feature.text-feature-2+.background {
     width: 41.1111111111vw;
     height: 38.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-3+.background {
+  .sece-main-wrap .section .text-feature.text-feature-3+.background {
     width: 41.1111111111vw;
     height: 40.8333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero {
-    height: 177.7777777778vw;
+  .sece-main-wrap .section.section-example {
+    height: 222.2222222222vw;
     padding: 36.1111111111vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero .text-wrap {
+  .sece-main-wrap .section.section-example .text-wrap {
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero p {
+  .sece-main-wrap .section.section-example p {
     font-size: 5vw;
     padding-right: 22.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-howto .col.col-3 {
-    flex-basis: 50%;
-    margin-top: 3.8888888889vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-about .background {
-    height: 1587.2222222222vw;
-    width: 100vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper {
-    align-items: flex-start;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper .text-wrap {
-    margin-top: 6.6666666667vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper ul {
-    margin-top: 4.4444444444vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-form {
+  .sece-main-wrap .section.section-form {
     border-radius: 4.4444444444vw;
     margin: 8.8888888889vw auto;
-    padding: 8.8888888889vw 0 56.9444444444vw;
+    padding: 8.8888888889vw;
     width: 86.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .wrapper {
+  .sece-main-wrap .section.section-form .wrapper {
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .col-wrapper {
+  .sece-main-wrap .section.section-form .col-wrapper {
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form h2 {
+  .sece-main-wrap .section.section-form h2 {
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .text-wrap {
+  .sece-main-wrap .section.section-form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .background {
+  .sece-main-wrap .section.section-form .background {
     bottom: 0;
     top: auto;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-traditions .wrapper-stories {
-    padding-top: 6.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story {
-    width: 100%;
-    padding: 3.3333333333vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .col-3 {
-    margin-top: 2.2222222222vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents h3 {
-    font-size: 6.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .background {
-    width: 70.5555555556vw;
-    height: 67.7777777778vw;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-wrap {
+  .sece-main-wrap .section.section-faq .faq-wrap {
     margin-top: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item {
+  .sece-main-wrap .section.section-faq .faq-item {
     padding: 2.2222222222vw 0;
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus,
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .arrow {
+  .sece-main-wrap .section.section-faq .faq-item .plus-minus,
+  .sece-main-wrap .section.section-faq .faq-item .arrow {
     width: 6.6666666667vw;
     height: 6.6666666667vw;
     flex: 0 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question {
     padding-left: 6.6666666667vw;
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question .index {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question .index {
     margin-left: -6.6666666667vw;
     width: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer {
     max-height: 999px;
     padding-left: 6.6666666667vw;
     padding-right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer p {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer p {
     margin-top: 0;
     font-size: 3.8888888889vw;
     padding-top: 2.2222222222vw;
@@ -1909,208 +2008,281 @@ body {
     word-break: break-word;
   }
 
-  .sece-NewYearTraditions-wrap .section form {
+  .sece-main-wrap .section .select-open {
+    width: 6.6666666667vw;
+    height: 6.6666666667vw;
+    position: absolute;
+    right: 3.3333333333vw;
+    top: 6.6666666667vw;
+    pointer-events: none;
+  }
+
+  .sece-main-wrap .section form {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
-  .sece-NewYearTraditions-wrap .section form .text-wrap {
+  .sece-main-wrap .section form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section form .col.col-3 .input-row,
-  .sece-NewYearTraditions-wrap .section form .col.col-9 .input-row {
+  .sece-main-wrap .section form .col.col-3 .input-row,
+  .sece-main-wrap .section form .col.col-9 .input-row {
     padding-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .note {
+  .sece-main-wrap .section .form-items {
+    margin-top: 0;
+    display: unset;
+    gap: 6.6666666667vw;
+    width: 86.6666666667vw;
+    padding: 6.6666666667vw 0 0;
+    border-bottom: 0;
+    padding: 6.6666666667vw 0;
+  }
+
+  .sece-main-wrap .section .form-items:last-of-type {
+    padding: 4.4444444444vw 0 0;
+  }
+
+  .sece-main-wrap .section .form-item p {
+    width: unset;
+  }
+
+  .sece-main-wrap .section .form-select {
+    background-color: #fff;
+    border: none;
+    padding: 3.8888888889vw 6.6666666667vw;
+    font-size: 3.8888888889vw;
+    margin-top: 3.3333333333vw;
+  }
+
+  .sece-main-wrap .section .form-select .error {
+    border: 1px solid red;
+  }
+
+  .sece-main-wrap .section .form-file-select {
+    border-bottom: 0.5555555556vw solid #000;
+  }
+
+  .sece-main-wrap .section .form-file-img {
+    margin: 3.3333333333vw 0 0 2.2222222222vw;
+    font-size: 3.3333333333vw;
+  }
+
+  .sece-main-wrap .section .form-file-img .error {
+    color: red;
+  }
+
+  .sece-main-wrap .section .note {
     color: #979797;
     align-self: flex-end;
   }
 
-  .sece-NewYearTraditions-wrap .section .message-error {
+  .sece-main-wrap .section .message-error {
     font-size: 2.7777777778vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .message-error:empty {
+  .sece-main-wrap .section .message-error:empty {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .note {
+  .sece-main-wrap .section .note {
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .label {
+  .sece-main-wrap .section .label {
     font-size: 3.8888888889vw;
     height: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row {
+  .sece-main-wrap .section .input-row {
     margin-top: 4.4444444444vw;
     padding-top: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row .note {
+  .sece-main-wrap .section .input-row.input-checkboxes .input-row,
+  .sece-main-wrap .section .input-row.input-radio .input-row {
+    margin-top: 2.2222222222vw;
+    padding-top: 2.2222222222vw;
+  }
+
+  .sece-main-wrap .section .input-row.input-checkboxes .input-row input,
+  .sece-main-wrap .section .input-row.input-radio .input-row input {
+    margin-right: 2.2222222222vw;
+  }
+
+  .sece-main-wrap .section .input-row .note {
     color: #8f8f8f;
     padding-left: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row.input-textarea {
+  .sece-main-wrap .section .input-row.input-textarea {
     margin-bottom: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text],
-  .sece-NewYearTraditions-wrap .section input[type=tel],
-  .sece-NewYearTraditions-wrap .section input[type=number],
-  .sece-NewYearTraditions-wrap .section input[type=password],
-  .sece-NewYearTraditions-wrap .section input[type=email] {
+  .sece-main-wrap .section input[type=text],
+  .sece-main-wrap .section input[type=tel],
+  .sece-main-wrap .section input[type=number],
+  .sece-main-wrap .section input[type=password],
+  .sece-main-wrap .section input[type=email] {
     font-size: 3.8888888889vw;
     line-height: 6.6666666667vw;
     padding: 0 0 1.9444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill {
-    box-shadow: 0 0 0 277.7777777778vw #fff inset;
+  .sece-main-wrap .section input[type=text]:-webkit-autofill,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill {
+    box-shadow: 0 0 0 277.7777777778vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:focus {
-    box-shadow: 0 0 0 277.7777777778vw #fff inset;
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:focus {
+    box-shadow: 0 0 0 277.7777777778vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-label p {
+  .sece-main-wrap .section .input-label p {
     text-align: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-label b {
+  .sece-main-wrap .section .input-label b {
     font-size: 3.8888888889vw;
     margin-bottom: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-select {
+  .sece-main-wrap .section .input-select {
     margin-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=file] {
+  .sece-main-wrap .section input[type=file] {
     width: 75.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section select {
+  .sece-main-wrap .section select {
     height: 13.3333333333vw;
     padding: 3.8888888889vw 6.6666666667vw;
     font-size: 3.8888888889vw;
     padding-right: 11.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=checkbox] {
-    width: 5.5555555556vw;
-    height: 5.5555555556vw;
+  .sece-main-wrap .section input[type=checkbox],
+  .sece-main-wrap .section input[type=radio] {
+    width: 6.6666666667vw;
+    height: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section textarea {
+  .sece-main-wrap .section input[type=checkbox]::before {
+    width: 1.3888888889vw;
+    height: 2.7777777778vw;
+    left: 2.2222222222vw;
+    top: 0.8333333333vw;
+  }
+
+  .sece-main-wrap .section input[type=radio]::before {
+    width: 3.8888888889vw;
+    height: 3.8888888889vw;
+    border: 1.1111111111vw solid #fff;
+  }
+
+  .sece-main-wrap .section textarea {
     border-radius: 1.6666666667vw;
     font-size: 3.8888888889vw;
     padding: 3.3333333333vw 4.4444444444vw;
     min-height: 52.7777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel label,
-  .sece-NewYearTraditions-wrap .section .input-password label,
-  .sece-NewYearTraditions-wrap .section .input-email label,
-  .sece-NewYearTraditions-wrap .section .input-text label {
+  .sece-main-wrap .section .input-tel label,
+  .sece-main-wrap .section .input-password label,
+  .sece-main-wrap .section .input-email label,
+  .sece-main-wrap .section .input-text label {
     padding-top: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel .label,
-  .sece-NewYearTraditions-wrap .section .input-password .label,
-  .sece-NewYearTraditions-wrap .section .input-email .label,
-  .sece-NewYearTraditions-wrap .section .input-text .label {
+  .sece-main-wrap .section .input-tel .label,
+  .sece-main-wrap .section .input-password .label,
+  .sece-main-wrap .section .input-email .label,
+  .sece-main-wrap .section .input-text .label {
     top: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-password input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-email input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-text input:not(:-moz-placeholder-shown)+.label {
+  .sece-main-wrap .section .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-password input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-email input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-text input:not(:-moz-placeholder-shown)+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-password input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-email input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-text input:not(:-ms-input-placeholder)+.label {
+  .sece-main-wrap .section .input-tel input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-tel input:focus+.label,
+  .sece-main-wrap .section .input-password input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-password input:focus+.label,
+  .sece-main-wrap .section .input-email input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-email input:focus+.label,
+  .sece-main-wrap .section .input-text input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-text input:focus+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-tel input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:focus+.label {
+  .sece-main-wrap .section .input-tel input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-password input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-email input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-text input:-webkit-autofill+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:-webkit-autofill+.label {
-    font-size: 3.8888888889vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section .input-selector label,
-  .sece-NewYearTraditions-wrap .section .input-number label {
+  .sece-main-wrap .section .input-selector label,
+  .sece-main-wrap .section .input-number label {
     margin-top: 4.4444444444vw;
     font-size: 3.8888888889vw;
     min-height: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox {
+  .sece-main-wrap .section .input-checkbox {
     padding-top: 2.2222222222vw;
-    margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox label {
+  .sece-main-wrap .section .input-checkbox label {
+    margin-top: 0;
     margin-left: 8.3333333333vw;
     font-size: 3.8888888889vw;
     line-height: 1.33;
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox label a {
+  .sece-main-wrap .section .input-checkbox label a {
     text-decoration: underline;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-selector .item {
+  .sece-main-wrap .section .input-selector .item {
     border-radius: 1.6666666667vw;
     width: 38.3333333333vw;
     height: 13.8888888889vw;
@@ -2118,12 +2290,24 @@ body {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-selector .item:hover,
-  .sece-NewYearTraditions-wrap .section .input-selector .item.is_selected {
+  .sece-main-wrap .section .input-selector .item:hover,
+  .sece-main-wrap .section .input-selector .item.is_selected {
     border: 0.5555555556vw solid #0091ff;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup {
+  .sece-main-wrap .checkbox-wrapper {
+    display: block;
+    margin-bottom: 8.3333333333vw;
+    position: relative;
+  }
+
+  .sece-main-wrap .checkbox-text {
+    position: absolute;
+    left: 8.3333333333vw;
+    top: 0;
+  }
+
+  .sece-main-wrap .popup-wrap .popup {
     border-radius: 0;
     max-width: 100%;
     width: 100%;
@@ -2136,25 +2320,25 @@ body {
     padding: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .icon-success {
+  .sece-main-wrap .popup-wrap .icon-success {
     width: 13.3333333333vw;
     height: 13.3333333333vw;
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-title {
+  .sece-main-wrap .popup-wrap .popup-title {
     padding: 0;
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-close {
+  .sece-main-wrap .popup-wrap .popup-close {
     width: 6.6666666667vw;
     height: 6.6666666667vw;
     top: 6.6666666667vw;
     right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content {
+  .sece-main-wrap .popup-wrap .popup-content {
     max-width: 100%;
     width: 100%;
     height: 100%;
@@ -2165,47 +2349,42 @@ body {
     padding-top: 16.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-close {
+  .sece-main-wrap .popup-wrap .popup-content .popup-close {
     cursor: pointer;
     position: absolute;
     top: 7.5vw;
     right: 7.5vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text p {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text p {
     font-size: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text .post-content {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text .post-content {
     max-height: 100%;
     margin-bottom: 4.4444444444vw;
     padding-right: 0;
   }
 
-  .sece-NewYearTraditions-wrap .panel {
+  .sece-main-wrap .panel {
     margin-top: 8.8888888889vw;
     width: 88.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-head {
+  .sece-main-wrap .panel .panel-head {
     padding: 7.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-body {
+  .sece-main-wrap .panel .panel-body {
     padding: 13.3333333333vw 6.6666666667vw;
   }
-}
-
-.sece-NewYearTraditions-wrap .block-rc img {
-  transition: transform 1s;
-  transform-origin: 50% 50%;
 }
 
 @media (min-width: 768px)and (max-width: 1440px) {
@@ -2213,156 +2392,155 @@ body {
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap {
+  .sece-main-wrap {
     position: relative;
     margin: 0 auto;
     width: 100%;
     background-color: #fff;
-    z-index: 2;
-    z-index: 2000;
+    z-index: 1999;
     overflow: hidden;
   }
 
-  .sece-NewYearTraditions-wrap .desktop-only {
+  .sece-main-wrap .desktop-only {
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .mobile-only {
+  .sece-main-wrap .mobile-only {
     display: none !important;
   }
 
-  .sece-NewYearTraditions-wrap .colored_yellow {
+  .sece-main-wrap .colored_yellow {
     color: #ffaa4e;
   }
 
-  .sece-NewYearTraditions-wrap * {
+  .sece-main-wrap * {
     box-sizing: border-box;
     font-family: "SamsungOne",arial,sans-serif;
   }
 
-  .sece-NewYearTraditions-wrap ::-moz-selection {
-    background-color: rgba(255,255,255,.1);
+  .sece-main-wrap ::-moz-selection {
+    background-color: hsla(0,0%,100%,.1);
   }
 
-  .sece-NewYearTraditions-wrap ::selection {
-    background-color: rgba(255,255,255,.1);
+  .sece-main-wrap ::selection {
+    background-color: hsla(0,0%,100%,.1);
   }
 
-  .sece-NewYearTraditions-wrap a {
+  .sece-main-wrap a {
     color: inherit;
   }
 
-  .sece-NewYearTraditions-wrap h1,
-  .sece-NewYearTraditions-wrap h2,
-  .sece-NewYearTraditions-wrap h3 {
+  .sece-main-wrap h1,
+  .sece-main-wrap h2,
+  .sece-main-wrap h3 {
     font-family: "SamsungSharpSans","SamsungOne",arial,sans-serif;
   }
 
-  .sece-NewYearTraditions-wrap h1,
-  .sece-NewYearTraditions-wrap h2,
-  .sece-NewYearTraditions-wrap h3,
-  .sece-NewYearTraditions-wrap h4,
-  .sece-NewYearTraditions-wrap h5,
-  .sece-NewYearTraditions-wrap h6 {
+  .sece-main-wrap h1,
+  .sece-main-wrap h2,
+  .sece-main-wrap h3,
+  .sece-main-wrap h4,
+  .sece-main-wrap h5,
+  .sece-main-wrap h6 {
     line-height: 1.2;
     margin: 0;
     width: 100%;
     white-space: normal;
   }
 
-  .sece-NewYearTraditions-wrap h1:not(:first-child),
-  .sece-NewYearTraditions-wrap h2:not(:first-child),
-  .sece-NewYearTraditions-wrap h3:not(:first-child),
-  .sece-NewYearTraditions-wrap h4:not(:first-child),
-  .sece-NewYearTraditions-wrap h5:not(:first-child),
-  .sece-NewYearTraditions-wrap h6:not(:first-child) {
+  .sece-main-wrap h1:not(:first-child),
+  .sece-main-wrap h2:not(:first-child),
+  .sece-main-wrap h3:not(:first-child),
+  .sece-main-wrap h4:not(:first-child),
+  .sece-main-wrap h5:not(:first-child),
+  .sece-main-wrap h6:not(:first-child) {
     margin: 1.1111111111vw 0 0;
   }
 
-  .sece-NewYearTraditions-wrap h5 {
+  .sece-main-wrap h5 {
     font-family: "SamsungOne",arial,sans-serif;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h1,
-  .sece-NewYearTraditions-wrap.sece-language-kz h2,
-  .sece-NewYearTraditions-wrap.sece-language-kz h3,
-  .sece-NewYearTraditions-wrap.sece-language-kz h4,
-  .sece-NewYearTraditions-wrap.sece-language-kz h5 {
+  .sece-main-wrap.sece-language-kz h1,
+  .sece-main-wrap.sece-language-kz h2,
+  .sece-main-wrap.sece-language-kz h3,
+  .sece-main-wrap.sece-language-kz h4,
+  .sece-main-wrap.sece-language-kz h5 {
     font-family: "SamsungOne",arial,sans-serif;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2 {
+  .sece-main-wrap.sece-language-kz h2 {
     font-size: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2.bigger {
+  .sece-main-wrap.sece-language-kz h2.bigger {
     font-size: 2.5vw;
   }
 
-  .sece-NewYearTraditions-wrap ol {
+  .sece-main-wrap ol {
     padding-left: 1.5em;
   }
 
-  .sece-NewYearTraditions-wrap ol li {
+  .sece-main-wrap ol li {
     list-style: decimal;
     list-style-position: outside;
     padding-left: 0.3472222222vw;
     font-size: 1.5277777778vw;
   }
 
-  .sece-NewYearTraditions-wrap h1 {
+  .sece-main-wrap h1 {
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap h2 {
+  .sece-main-wrap h2 {
     font-size: 2.6388888889vw;
   }
 
-  .sece-NewYearTraditions-wrap h3 {
+  .sece-main-wrap h3 {
     font-size: 1.5277777778vw;
   }
 
-  .sece-NewYearTraditions-wrap h4 {
+  .sece-main-wrap h4 {
     font-size: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap h5 {
+  .sece-main-wrap h5 {
     font-size: 1.25vw;
   }
 
-  .sece-NewYearTraditions-wrap p {
+  .sece-main-wrap p {
     margin: 0.5555555556vw 0 0;
     font-size: 1.25vw;
     line-height: 1.2;
   }
 
-  .sece-NewYearTraditions-wrap p:first-child {
+  .sece-main-wrap p:first-child {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap p a {
+  .sece-main-wrap p a {
     text-decoration: underline;
   }
 
-  .sece-NewYearTraditions-wrap .note,
-  .sece-NewYearTraditions-wrap .disclaimer {
+  .sece-main-wrap .note,
+  .sece-main-wrap .disclaimer {
     font-size: 0.9722222222vw;
     color: #707070;
   }
 
-  .sece-NewYearTraditions-wrap .prenote {
+  .sece-main-wrap .prenote {
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .is_hidden {
+  .sece-main-wrap .is_hidden {
     display: none !important;
   }
 
-  .sece-NewYearTraditions-wrap .image-frame {
+  .sece-main-wrap .image-frame {
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .video-frame {
+  .sece-main-wrap .video-frame {
     margin-top: 2.2222222222vw;
     width: 100%;
     padding-top: 56.4%;
@@ -2370,12 +2548,12 @@ body {
     position: relative;
   }
 
-  .sece-NewYearTraditions-wrap .video-frame.video-frame-square {
+  .sece-main-wrap .video-frame.video-frame-square {
     padding-top: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .video-frame iframe,
-  .sece-NewYearTraditions-wrap .video-frame video {
+  .sece-main-wrap .video-frame iframe,
+  .sece-main-wrap .video-frame video {
     position: absolute;
     transform: scale(1.01);
     transform-origin: 50% 50%;
@@ -2386,7 +2564,7 @@ body {
     background-color: rgba(0,0,0,.1);
   }
 
-  .sece-NewYearTraditions-wrap .btn-blank {
+  .sece-main-wrap .btn-blank {
     background: none;
     border: 0;
     padding: 0;
@@ -2394,7 +2572,7 @@ body {
     cursor: pointer;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6 {
+  .sece-main-wrap .btn-p6 {
     height: 2.7777777778vw;
     border-radius: 2.7777777778vw;
     padding: 0.6944444444vw 1.6666666667vw 0.5555555556vw 1.6666666667vw;
@@ -2406,61 +2584,69 @@ body {
     align-items: center;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6 .trailing-icon {
+  .sece-main-wrap .btn-p6 .trailing-icon {
     width: 1.1111111111vw;
     height: 1.1111111111vw;
     margin: 0 0.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6:focus,
-  .sece-NewYearTraditions-wrap .btn-p6:hover {
+  .sece-main-wrap .btn-p6:focus,
+  .sece-main-wrap .btn-p6:hover {
     transition: background-color 400ms;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6:focus .trailing-icon path,
-  .sece-NewYearTraditions-wrap .btn-p6:hover .trailing-icon path {
+  .sece-main-wrap .btn-p6:focus .trailing-icon path,
+  .sece-main-wrap .btn-p6:hover .trailing-icon path {
     fill: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-black {
+  .sece-main-wrap .btn-p6-black {
     border: 0.0694444444vw solid #000;
     background-color: #000;
     color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-black:focus,
-  .sece-NewYearTraditions-wrap .btn-p6-black:hover {
-    background-color: #fff;
-    color: #000;
+  .sece-main-wrap .btn-p6-black:hover,
+  .sece-main-wrap .btn-p6-black:focus {
+    background-color: #555;
+    border: 0.0694444444vw solid #555;
+    color: #eee;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-blue {
+  .sece-main-wrap .btn-p6-black:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    border-color: #ddd;
+    cursor: default;
+  }
+
+  .sece-main-wrap .btn-p6-blue {
     border: 0.0694444444vw solid #0091ff;
     background-color: #0091ff;
     color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-blue:focus,
-  .sece-NewYearTraditions-wrap .btn-p6-blue:hover {
+  .sece-main-wrap .btn-p6-blue:focus,
+  .sece-main-wrap .btn-p6-blue:hover {
     background-color: #fff;
     border-color: #000;
     color: #000;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-white {
+  .sece-main-wrap .btn-p6-white {
     border: 0.0694444444vw solid #fff;
     background-color: #fff;
     color: #000;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-white:focus,
-  .sece-NewYearTraditions-wrap .btn-p6-white:hover {
-    border: 0.0694444444vw solid #fff;
-    background-color: #000;
-    color: #fff;
+  .sece-main-wrap .btn-p6-white:hover,
+  .sece-main-wrap .btn-p6-white:focus {
+    background-color: #ddd;
+    border: 0.0694444444vw solid #ddd;
+    color: #313131;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-encased {
+  .sece-main-wrap .btn-p6-encased {
     height: 2.7777777778vw;
     border-radius: 2.7777777778vw;
     padding: 0.6944444444vw 1.6666666667vw 0.5555555556vw 1.6666666667vw;
@@ -2470,37 +2656,37 @@ body {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    background-color: rgba(255,255,255,0);
+    background-color: hsla(0,0%,100%,0);
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-encased:focus,
-  .sece-NewYearTraditions-wrap .btn-p6-encased:hover {
+  .sece-main-wrap .btn-p6-encased:focus,
+  .sece-main-wrap .btn-p6-encased:hover {
     transition: background-color 400ms;
     background-color: #000;
     color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-small {
+  .sece-main-wrap .btn-p6-small {
     height: 1.9444444444vw;
     font-size: 0.8333333333vw;
     border: 0.0694444444vw solid #d4d4d4;
     font-weight: normal;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-small.is_selected,
-  .sece-NewYearTraditions-wrap .btn-p6-small:focus,
-  .sece-NewYearTraditions-wrap .btn-p6-small:hover {
+  .sece-main-wrap .btn-p6-small.is_selected,
+  .sece-main-wrap .btn-p6-small:focus,
+  .sece-main-wrap .btn-p6-small:hover {
     border-color: #2189ff;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text {
+  .sece-main-wrap .btn-p6-text {
     padding: 0.6944444444vw 0 0.2083333333vw;
     margin-bottom: 0.4166666667vw;
     border-radius: 0;
     height: auto;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text-underline {
+  .sece-main-wrap .btn-p6-text-underline {
     padding: 0.6944444444vw 0 0.2083333333vw;
     margin-bottom: 0.4166666667vw;
     border-bottom: 0.1388888889vw solid #000;
@@ -2508,36 +2694,36 @@ body {
     height: auto;
   }
 
-  .sece-NewYearTraditions-wrap .buttons {
+  .sece-main-wrap .buttons {
     width: 100%;
     margin-left: -0.5555555556vw;
     margin-top: 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6,
-  .sece-NewYearTraditions-wrap .buttons .button {
+  .sece-main-wrap .buttons .btn-p6,
+  .sece-main-wrap .buttons .button {
     margin: 0 0.5555555556vw;
     display: inline-flex;
     align-items: center;
     padding-top: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6:not(:last-child),
-  .sece-NewYearTraditions-wrap .buttons .button:not(:last-child) {
+  .sece-main-wrap .buttons .btn-p6:not(:last-child),
+  .sece-main-wrap .buttons .button:not(:last-child) {
     margin-bottom: 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6.btn-p6-small,
-  .sece-NewYearTraditions-wrap .buttons .button.btn-p6-small {
+  .sece-main-wrap .buttons .btn-p6.btn-p6-small,
+  .sece-main-wrap .buttons .button.btn-p6-small {
     margin: 0 0.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6.btn-p6-small:not(:last-child),
-  .sece-NewYearTraditions-wrap .buttons .button.btn-p6-small:not(:last-child) {
+  .sece-main-wrap .buttons .btn-p6.btn-p6-small:not(:last-child),
+  .sece-main-wrap .buttons .button.btn-p6-small:not(:last-child) {
     margin-bottom: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .background {
+  .sece-main-wrap .background {
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -2546,7 +2732,7 @@ body {
     pointer-events: none;
   }
 
-  .sece-NewYearTraditions-wrap .counter {
+  .sece-main-wrap .counter {
     color: #fff;
     font-size: 0.8333333333vw;
     text-transform: uppercase;
@@ -2555,33 +2741,33 @@ body {
     border-radius: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel {
+  .sece-main-wrap .panel {
     width: 100%;
     margin-top: 5.1388888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-head {
+  .sece-main-wrap .panel .panel-head {
     background-color: #000;
     color: #fff;
     padding: 1.8055555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-blue {
+  .sece-main-wrap .panel .panel-blue {
     background-color: #2189ff;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-body {
+  .sece-main-wrap .panel .panel-body {
     padding: 6.5277777778vw 6.7361111111vw;
     width: 100%;
     border: 0.0694444444vw solid #ddd;
   }
 
-  .sece-NewYearTraditions-wrap img {
+  .sece-main-wrap img {
     max-width: 100%;
     width: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 0;
     position: relative;
     font-size: 1.25vw;
@@ -2595,30 +2781,30 @@ body {
     z-index: 1;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-invert {
+  .sece-main-wrap .section.section-invert {
     color: #fff;
     background-color: #000;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-invert .btn-p6-encased {
+  .sece-main-wrap .section.section-invert .btn-p6-encased {
     border-color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-invert .btn-p6-encased:hover {
+  .sece-main-wrap .section.section-invert .btn-p6-encased:hover {
     color: #000;
     background-color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-invert .btn-p6-text-underline {
+  .sece-main-wrap .section.section-invert .btn-p6-text-underline {
     border-color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .section>.wrapper {
+  .sece-main-wrap .section>.wrapper {
     max-width: 97.5vw;
     margin: 0 auto;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper {
+  .sece-main-wrap .section .wrapper {
     width: 100%;
     position: relative;
     display: flex;
@@ -2628,19 +2814,19 @@ body {
     align-items: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper.wrapper-reverse {
+  .sece-main-wrap .section .wrapper.wrapper-reverse {
     flex-flow: row-reverse wrap;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper.wrapper-center {
+  .sece-main-wrap .section .wrapper.wrapper-center {
     justify-content: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-break {
+  .sece-main-wrap .section .col-break {
     flex-basis: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col {
+  .sece-main-wrap .section .col {
     display: flex;
     flex-flow: row wrap;
     flex: 0 0 0vw;
@@ -2650,85 +2836,85 @@ body {
     justify-content: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-wrapper {
+  .sece-main-wrap .section .col.col-wrapper {
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-0 {
+  .sece-main-wrap .section .col.col-0 {
     flex: 0 1 0%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-1 {
+  .sece-main-wrap .section .col.col-1 {
     flex: 0 1 8.3333333333%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2 {
+  .sece-main-wrap .section .col.col-2 {
     flex: 0 1 16.6666666667%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3 {
+  .sece-main-wrap .section .col.col-3 {
     flex: 0 1 25%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-4 {
+  .sece-main-wrap .section .col.col-4 {
     flex: 0 1 33.3333333333%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-5 {
+  .sece-main-wrap .section .col.col-5 {
     flex: 0 1 41.6666666667%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-6 {
+  .sece-main-wrap .section .col.col-6 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-7 {
+  .sece-main-wrap .section .col.col-7 {
     flex: 0 1 58.3333333333%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-8 {
+  .sece-main-wrap .section .col.col-8 {
     flex: 0 1 66.6666666667%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-9 {
+  .sece-main-wrap .section .col.col-9 {
     flex: 0 1 75%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-10 {
+  .sece-main-wrap .section .col.col-10 {
     flex: 0 1 83.3333333333%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-11 {
+  .sece-main-wrap .section .col.col-11 {
     flex: 0 1 91.6666666667%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-12 {
+  .sece-main-wrap .section .col.col-12 {
     flex: 0 1 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 20%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 0 1 37.5%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-even .input-row {
+  .sece-main-wrap .section .col-even .input-row {
     padding-left: 0.8333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-odd .input-row {
+  .sece-main-wrap .section .col-odd .input-row {
     padding-right: 0.8333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-wrap {
+  .sece-main-wrap .section .text-wrap {
     margin: 0 0.8333333333vw;
     flex: 1 1 auto;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature {
+  .sece-main-wrap .section .text-feature {
     font-size: 0.9722222222vw;
     display: flex;
     flex-flow: column;
@@ -2738,20 +2924,20 @@ body {
     align-items: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature .icon {
+  .sece-main-wrap .section .text-feature .icon {
     width: 6.6666666667vw;
     height: 6.6666666667vw;
     cursor: default;
     margin-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature p {
+  .sece-main-wrap .section .text-feature p {
     flex: 0 1 auto;
     font-size: 1.25vw;
     margin-top: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-1+.background {
+  .sece-main-wrap .section .text-feature.text-feature-1+.background {
     width: 16.4583333333vw;
     height: 16.5972222222vw;
     left: 50%;
@@ -2759,7 +2945,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-2+.background {
+  .sece-main-wrap .section .text-feature.text-feature-2+.background {
     width: 21.5277777778vw;
     height: 20vw;
     left: 50%;
@@ -2767,7 +2953,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-3+.background {
+  .sece-main-wrap .section .text-feature.text-feature-3+.background {
     width: 19.1666666667vw;
     height: 19.0277777778vw;
     left: 50%;
@@ -2775,21 +2961,21 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  .sece-NewYearTraditions-wrap .section .text-center {
+  .sece-main-wrap .section .text-center {
     text-align: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-right {
+  .sece-main-wrap .section .text-right {
     text-align: right;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline {
+  .sece-main-wrap .section .subline {
     margin-bottom: 3.8888888889vw;
     padding-bottom: 3.8888888889vw;
     position: relative;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline:after {
+  .sece-main-wrap .section .subline:after {
     width: 11.4583333333vw;
     height: 0.1388888889vw;
     background-color: #000;
@@ -2801,30 +2987,16 @@ body {
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .section .background {
+  .sece-main-wrap .section .background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .disclaimer {
+  .sece-main-wrap .disclaimer {
     font-size: 0.8333333333vw;
   }
-
-@-webkit-keyframes scaleInOut {
-    0% {
-      opacity: 0;
-    }
-
-    10% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: 0;
-    }
-}
 
 @keyframes scaleInOut {
     0% {
@@ -2840,16 +3012,16 @@ body {
     }
 }
 
-  .sece-NewYearTraditions-wrap *::-ms-backdrop,
-  .sece-NewYearTraditions-wrap select {
+  .sece-main-wrap *::-ms-backdrop,
+  .sece-main-wrap select {
     background: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 2.2222222222vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-rc {
+  .sece-main-wrap .section .block-rc {
     border-radius: 1.3888888889vw;
     overflow: hidden;
     display: flex;
@@ -2859,161 +3031,85 @@ body {
     background-color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-rc img {
+  .sece-main-wrap .section .block-rc img {
     width: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-bg-lpink {
+  .sece-main-wrap .section .block-bg-lpink {
     background-color: #ede7e7;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-bg-lblue {
+  .sece-main-wrap .section .block-bg-lblue {
     background-color: #d3edef;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-bg-gray {
+  .sece-main-wrap .section .block-bg-gray {
     background-color: #f4f4f4;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-bg-lgray {
+  .sece-main-wrap .section .block-bg-lgray {
     background-color: #ececec;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-bg-ldblue {
+  .sece-main-wrap .section .block-bg-ldblue {
     background-color: #e2ebf0;
   }
 
-  .sece-NewYearTraditions-wrap .section:last-child {
+  .sece-main-wrap .section:last-child {
     padding-bottom: 5vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper .text-padded {
+  .sece-main-wrap .section .wrapper .text-padded {
     padding-left: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero {
-    height: 44.4444444444vw;
+  .sece-main-wrap .section.section-example {
+    height: 41.6666666667vw;
     margin-bottom: 0;
     padding: 11.1111111111vw 0;
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero .text-wrap {
+  .sece-main-wrap .section.section-example .text-wrap {
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero .background {
+  .sece-main-wrap .section.section-example .background {
     height: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper {
+  .sece-main-wrap .section.section-form {
     align-items: flex-start;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper .text-wrap {
-    margin-top: 2.2222222222vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper ul {
-    margin-top: 1.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-howto .wrapper {
-    align-items: flex-start;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-howto .block-rc {
-    padding: 1.6666666667vw 0;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-about .background {
-    height: 258.4027777778vw;
-    width: 100vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-form {
-    align-items: flex-start;
-    background-color: #f5f7fe;
+    background-color: #f7f7f7;
     border-radius: 2.2222222222vw;
     padding: 5.5555555556vw 0;
     margin: 2.2222222222vw auto;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form form.col {
+  .sece-main-wrap .section.section-form form.col {
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .wrapper {
+  .sece-main-wrap .section.section-form .wrapper {
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form h2 {
+  .sece-main-wrap .section.section-form h2 {
     font-size: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .text-wrap {
+  .sece-main-wrap .section.section-form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-traditions .col-traditions-empty {
-    display: none;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions.is_empty .col-traditions-empty {
-    display: flex;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions.is_empty .wrapper-stories {
-    display: none;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .wrapper-stories {
-    padding-top: 2.2222222222vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story {
-    width: 25%;
-    padding: 0.8333333333vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story .block-rc {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story .block-rc h3 {
-    margin-top: 1.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(n) .block-rc,
-  .sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(3n) .block-rc {
-    background-color: #f4f7fe;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(2n) .block-rc {
-    background-color: #f8eef5;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story:nth-child(4n) .block-rc {
-    background-color: #fef6f3;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .wrapper {
-    align-items: stretch;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .col-3 {
-    margin-top: 0.5555555556vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item {
+  .sece-main-wrap .section.section-faq .faq-item {
     margin-top: 0;
     padding: 1.25vw 0;
     border-top: 0.0694444444vw solid #ddd;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus,
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .arrow {
+  .sece-main-wrap .section.section-faq .faq-item .plus-minus,
+  .sece-main-wrap .section.section-faq .faq-item .arrow {
     width: 2.2222222222vw;
     height: 2.2222222222vw;
     transform-origin: 50% 50%;
@@ -3022,15 +3118,15 @@ body {
     flex: 0 0 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus .plus {
+  .sece-main-wrap .section.section-faq .faq-item .plus-minus .plus {
     display: none;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus .minus {
+  .sece-main-wrap .section.section-faq .faq-item .plus-minus .minus {
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -3038,13 +3134,13 @@ body {
     padding-left: 1.9444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question .index {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question .index {
     margin-left: -1.9444444444vw;
     width: 1.9444444444vw;
     display: inline-block;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer {
     max-height: 69.375vw;
     overflow: hidden;
     opacity: 1;
@@ -3053,38 +3149,38 @@ body {
     padding-right: 1.9444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer p {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer p {
     margin-top: 0;
     font-size: 1.25vw;
     padding-top: 0.8333333333vw;
     padding-bottom: 0.8333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .plus {
+  .sece-main-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .plus {
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .minus {
+  .sece-main-wrap .section.section-faq .faq-item.is_collapsed .plus-minus .minus {
     display: none;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .arrow {
+  .sece-main-wrap .section.section-faq .faq-item.is_collapsed .arrow {
     transform: rotate(0deg);
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item.is_collapsed .faq-answer {
+  .sece-main-wrap .section.section-faq .faq-item.is_collapsed .faq-answer {
     max-height: 0;
     opacity: 0;
     transition: max-height 10ms,opacity 10ms;
   }
 
-  .sece-NewYearTraditions-wrap .partners {
+  .sece-main-wrap .partners {
     display: flex;
     flex-flow: row wrap;
     padding-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .partner {
+  .sece-main-wrap .partner {
     flex: 0 1 auto;
     width: 10.4166666667vw;
     height: 3.3333333333vw;
@@ -3096,12 +3192,12 @@ body {
     margin: 0.6944444444vw 0.2777777778vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .partner img {
+  .sece-main-wrap .partner img {
     width: 100%;
     height: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap {
+  .sece-main-wrap .popup-wrap {
     position: fixed;
     top: 0;
     left: 0;
@@ -3114,11 +3210,11 @@ body {
     color: #000;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap.is_hidden {
+  .sece-main-wrap .popup-wrap.is_hidden {
     display: none;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap:before {
+  .sece-main-wrap .popup-wrap:before {
     content: " ";
     display: block;
     width: 100%;
@@ -3132,7 +3228,7 @@ body {
     flex: 0;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup {
+  .sece-main-wrap .popup-wrap .popup {
     border-radius: 1.1111111111vw;
     max-width: 33.8888888889vw;
     padding: 1.6666666667vw;
@@ -3144,13 +3240,13 @@ body {
     overflow: hidden;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .icon-success {
+  .sece-main-wrap .popup-wrap .icon-success {
     width: 3.3333333333vw;
     height: 3.3333333333vw;
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-title {
+  .sece-main-wrap .popup-wrap .popup-title {
     padding: 0;
     font-size: 1.5277777778vw;
     position: absolute;
@@ -3159,7 +3255,7 @@ body {
     width: auto;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-close {
+  .sece-main-wrap .popup-wrap .popup-close {
     position: absolute;
     width: 1.6666666667vw;
     height: 1.6666666667vw;
@@ -3169,12 +3265,12 @@ body {
     cursor: pointer;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-close svg {
+  .sece-main-wrap .popup-wrap .popup-close svg {
     width: 100%;
     height: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content {
+  .sece-main-wrap .popup-wrap .popup-content {
     width: 100%;
     text-align: center;
     position: relative;
@@ -3184,11 +3280,11 @@ body {
     padding-top: 3.4722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .btn-p6-encased {
+  .sece-main-wrap .popup-wrap .popup-content .btn-p6-encased {
     cursor: pointer;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -3196,46 +3292,155 @@ body {
     overflow: hidden;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text p {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text p {
     font-size: 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .buttons-answers .btn-p6-black:hover,
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .buttons-answers .btn-p6-black:focus {
-    background-color: #000;
-    color: #fff;
-  }
-
-  .sece-NewYearTraditions-wrap form {
+  .sece-main-wrap form {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
-  .sece-NewYearTraditions-wrap form .text-wrap {
+  .sece-main-wrap form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .note {
+  .sece-main-wrap form.form-steps .input-step {
+    display: none;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="0"] .input-step[data-step="0"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="1"] .input-step[data-step="1"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="2"] .input-step[data-step="2"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="3"] .input-step[data-step="3"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="4"] .input-step[data-step="4"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="5"] .input-step[data-step="5"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="6"] .input-step[data-step="6"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="7"] .input-step[data-step="7"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="8"] .input-step[data-step="8"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="9"] .input-step[data-step="9"] {
+    display: block;
+  }
+
+  .sece-main-wrap form.form-steps.form-steps[data-step="10"] .input-step[data-step="10"] {
+    display: block;
+  }
+
+  .sece-main-wrap .form-input {
+    font-size: 0.9722222222vw;
+  }
+
+  .sece-main-wrap .form-input ::-moz-placeholder {
+    font-size: 0.9722222222vw;
+  }
+
+  .sece-main-wrap .form-input ::placeholder {
+    font-size: 0.9722222222vw;
+  }
+
+  .sece-main-wrap .form-submit {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sece-main-wrap .form-submit .buttons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .sece-main-wrap .form-select {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    padding: 0.9722222222vw 1.6666666667vw;
+    font-size: 0.9722222222vw;
+  }
+
+  .sece-main-wrap .form-select .error {
+    border: 0.0694444444vw solid red;
+  }
+
+  .sece-main-wrap .form-file {
+    display: none;
+  }
+
+  .sece-main-wrap .form-file-select {
+    border-bottom: 0.1388888889vw solid #000;
+    cursor: pointer;
+  }
+
+  .sece-main-wrap .form-file-img {
+    margin: 0.8333333333vw 0 0 0.5555555556vw;
+    position: absolute;
+    font-size: 0.8333333333vw;
+  }
+
+  .sece-main-wrap .form-file-img .error {
+    color: red;
+  }
+
+  .sece-main-wrap .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.6666666667vw;
+    margin-bottom: 1.1111111111vw;
+  }
+
+  .sece-main-wrap .note {
     color: #979797;
     align-self: flex-end;
   }
 
-  .sece-NewYearTraditions-wrap .message-error {
+  .sece-main-wrap .message-error {
     color: red;
     font-size: 0.8333333333vw;
     margin-top: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .message-error:empty {
+  .sece-main-wrap .message-error:empty {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .note {
+  .sece-main-wrap .form-select.error {
+    border: 0.0694444444vw solid red;
+  }
+
+  .sece-main-wrap .note {
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .label {
+  .sece-main-wrap .label {
     line-height: 1.2;
     padding: 0;
     display: block;
@@ -3245,7 +3450,7 @@ body {
     white-space: nowrap;
   }
 
-  .sece-NewYearTraditions-wrap .input-row {
+  .sece-main-wrap .input-row {
     text-align: left;
     position: relative;
     margin-top: 1.1111111111vw;
@@ -3253,30 +3458,43 @@ body {
     padding-top: 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-row label {
+  .sece-main-wrap .input-row label {
     position: relative;
   }
 
-  .sece-NewYearTraditions-wrap .input-row.has-error .error {
+  .sece-main-wrap .input-row.has-error .error {
     opacity: 1;
   }
 
-  .sece-NewYearTraditions-wrap .input-row .note {
+  .sece-main-wrap .input-row .note {
     color: #8f8f8f;
     padding-left: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap select,
-  .sece-NewYearTraditions-wrap input[type=text],
-  .sece-NewYearTraditions-wrap input[type=tel],
-  .sece-NewYearTraditions-wrap input[type=number],
-  .sece-NewYearTraditions-wrap input[type=password],
-  .sece-NewYearTraditions-wrap input[type=email] {
+  .sece-main-wrap .input-row.input-checkboxes .input-row,
+  .sece-main-wrap .input-row.input-radio .input-row {
+    display: flex;
+    margin-top: 0.5555555556vw;
+    padding-top: 0.5555555556vw;
+  }
+
+  .sece-main-wrap .input-row.input-checkboxes .input-row input,
+  .sece-main-wrap .input-row.input-radio .input-row input {
+    flex: 0 0 auto;
+    margin-right: 0.5555555556vw;
+  }
+
+  .sece-main-wrap select,
+  .sece-main-wrap input[type=text],
+  .sece-main-wrap input[type=tel],
+  .sece-main-wrap input[type=number],
+  .sece-main-wrap input[type=password],
+  .sece-main-wrap input[type=email] {
     outline: none;
     min-width: 100%;
     border: 0;
     border-bottom: 0.0694444444vw solid #bbb;
-    background: transparent;
+    background: rgba(0,0,0,0);
     position: relative;
     text-align: left;
     font-size: 1.25vw;
@@ -3285,113 +3503,214 @@ body {
     width: 100%;
   }
 
-  .sece-NewYearTraditions-wrap select:-webkit-autofill,
-  .sece-NewYearTraditions-wrap select:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill {
-    box-shadow: 0 0 0vw 69.4444444444vw #fff inset;
+  .sece-main-wrap select:-webkit-autofill,
+  .sece-main-wrap select:-webkit-autofill,
+  .sece-main-wrap input[type=text]:-webkit-autofill,
+  .sece-main-wrap input[type=text]:-webkit-autofill,
+  .sece-main-wrap input[type=tel]:-webkit-autofill,
+  .sece-main-wrap input[type=tel]:-webkit-autofill,
+  .sece-main-wrap input[type=number]:-webkit-autofill,
+  .sece-main-wrap input[type=number]:-webkit-autofill,
+  .sece-main-wrap input[type=password]:-webkit-autofill,
+  .sece-main-wrap input[type=password]:-webkit-autofill,
+  .sece-main-wrap input[type=email]:-webkit-autofill,
+  .sece-main-wrap input[type=email]:-webkit-autofill {
+    box-shadow: 0 0 0vw 69.4444444444vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap select:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap select:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap select:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap select:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap input[type=email]:-webkit-autofill:focus {
-    box-shadow: 0 0 0vw 69.4444444444vw #fff inset;
+  .sece-main-wrap select:-webkit-autofill:hover,
+  .sece-main-wrap select:-webkit-autofill:focus,
+  .sece-main-wrap select:-webkit-autofill:hover,
+  .sece-main-wrap select:-webkit-autofill:focus,
+  .sece-main-wrap input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=email]:-webkit-autofill:focus,
+  .sece-main-wrap input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap input[type=email]:-webkit-autofill:focus {
+    box-shadow: 0 0 0vw 69.4444444444vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap select:focus,
-  .sece-NewYearTraditions-wrap input[type=text]:focus,
-  .sece-NewYearTraditions-wrap input[type=tel]:focus,
-  .sece-NewYearTraditions-wrap input[type=number]:focus,
-  .sece-NewYearTraditions-wrap input[type=password]:focus,
-  .sece-NewYearTraditions-wrap input[type=email]:focus {
+  .sece-main-wrap select:focus,
+  .sece-main-wrap input[type=text]:focus,
+  .sece-main-wrap input[type=tel]:focus,
+  .sece-main-wrap input[type=number]:focus,
+  .sece-main-wrap input[type=password]:focus,
+  .sece-main-wrap input[type=email]:focus {
     border-bottom: 0.0694444444vw solid #0091ff;
     box-shadow: inset 0 -0.0694444444vw 0 #0091ff;
   }
 
-  .sece-NewYearTraditions-wrap select:invalid,
-  .sece-NewYearTraditions-wrap select.error,
-  .sece-NewYearTraditions-wrap input[type=text]:invalid,
-  .sece-NewYearTraditions-wrap input[type=text].error,
-  .sece-NewYearTraditions-wrap input[type=tel]:invalid,
-  .sece-NewYearTraditions-wrap input[type=tel].error,
-  .sece-NewYearTraditions-wrap input[type=number]:invalid,
-  .sece-NewYearTraditions-wrap input[type=number].error,
-  .sece-NewYearTraditions-wrap input[type=password]:invalid,
-  .sece-NewYearTraditions-wrap input[type=password].error,
-  .sece-NewYearTraditions-wrap input[type=email]:invalid,
-  .sece-NewYearTraditions-wrap input[type=email].error {
+  .sece-main-wrap select:invalid,
+  .sece-main-wrap select.error,
+  .sece-main-wrap input[type=text]:invalid,
+  .sece-main-wrap input[type=text].error,
+  .sece-main-wrap input[type=tel]:invalid,
+  .sece-main-wrap input[type=tel].error,
+  .sece-main-wrap input[type=number]:invalid,
+  .sece-main-wrap input[type=number].error,
+  .sece-main-wrap input[type=password]:invalid,
+  .sece-main-wrap input[type=password].error,
+  .sece-main-wrap input[type=email]:invalid,
+  .sece-main-wrap input[type=email].error {
     border-bottom: 0.0694444444vw solid red;
   }
 
-  .sece-NewYearTraditions-wrap select:invalid+.label,
-  .sece-NewYearTraditions-wrap select.error+.label,
-  .sece-NewYearTraditions-wrap input[type=text]:invalid+.label,
-  .sece-NewYearTraditions-wrap input[type=text].error+.label,
-  .sece-NewYearTraditions-wrap input[type=tel]:invalid+.label,
-  .sece-NewYearTraditions-wrap input[type=tel].error+.label,
-  .sece-NewYearTraditions-wrap input[type=number]:invalid+.label,
-  .sece-NewYearTraditions-wrap input[type=number].error+.label,
-  .sece-NewYearTraditions-wrap input[type=password]:invalid+.label,
-  .sece-NewYearTraditions-wrap input[type=password].error+.label,
-  .sece-NewYearTraditions-wrap input[type=email]:invalid+.label,
-  .sece-NewYearTraditions-wrap input[type=email].error+.label {
+  .sece-main-wrap select:invalid+.label,
+  .sece-main-wrap select.error+.label,
+  .sece-main-wrap input[type=text]:invalid+.label,
+  .sece-main-wrap input[type=text].error+.label,
+  .sece-main-wrap input[type=tel]:invalid+.label,
+  .sece-main-wrap input[type=tel].error+.label,
+  .sece-main-wrap input[type=number]:invalid+.label,
+  .sece-main-wrap input[type=number].error+.label,
+  .sece-main-wrap input[type=password]:invalid+.label,
+  .sece-main-wrap input[type=password].error+.label,
+  .sece-main-wrap input[type=email]:invalid+.label,
+  .sece-main-wrap input[type=email].error+.label {
     color: red;
   }
 
-  .sece-NewYearTraditions-wrap select option {
+  .sece-main-wrap select option {
     background-color: #fff;
   }
 
-  .sece-NewYearTraditions-wrap input[type=checkbox] {
-    width: 1.3888888889vw;
-    height: 1.3888888889vw;
-    background-color: #fff;
-    color: #000;
+  .sece-main-wrap .select-wrapper {
+    position: relative;
+  }
+
+  .sece-main-wrap .select-open {
+    width: 1.6666666667vw;
+    height: 1.6666666667vw;
+    position: absolute;
+    right: 1.6666666667vw;
+    top: 0.8333333333vw;
+    pointer-events: none;
+  }
+
+  .sece-main-wrap input[type=checkbox],
+  .sece-main-wrap input[type=radio] {
+    position: relative;
+    width: 1.6666666667vw;
+    height: 1.6666666667vw;
+    cursor: pointer;
+    margin-right: 0.5555555556vw;
+    background-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    margin: 0;
+    border: 0.0694444444vw solid #555;
     border-radius: 50%;
+    transform: translateY(-0.075em);
     overflow: hidden;
-    -webkit-appearance: checkbox;
   }
 
-  .sece-NewYearTraditions-wrap input[type=file] {
-    background: transparent;
+  .sece-main-wrap input[type=checkbox]:disabled,
+  .sece-main-wrap input[type=radio]:disabled {
+    border: 0.0694444444vw solid #ddd;
   }
 
-  .sece-NewYearTraditions-wrap textarea {
+  .sece-main-wrap input[type=checkbox]:checked,
+  .sece-main-wrap input[type=radio]:checked {
+    border: 0.0694444444vw solid #2189ff;
+    background-color: #2189ff;
+  }
+
+  .sece-main-wrap input[type=checkbox]:checked::before,
+  .sece-main-wrap input[type=radio]:checked::before {
+    display: block;
+  }
+
+  .sece-main-wrap input[type=checkbox]:checked:hover:not([disabled]),
+  .sece-main-wrap input[type=radio]:checked:hover:not([disabled]) {
+    border: 0.0694444444vw solid #006ff2;
+    background-color: #006ff2;
+  }
+
+  .sece-main-wrap input[type=checkbox]:checked:hover:not([disabled])::before,
+  .sece-main-wrap input[type=radio]:checked:hover:not([disabled])::before {
+    background-color: #006ff2;
+  }
+
+  .sece-main-wrap input[type=checkbox]:checked:disabled,
+  .sece-main-wrap input[type=radio]:checked:disabled {
+    border: 0.0694444444vw solid #ddd;
+    background-color: #ddd;
+  }
+
+  .sece-main-wrap input[type=checkbox]:checked:disabled::before,
+  .sece-main-wrap input[type=radio]:checked:disabled::before {
+    background-color: #ddd;
+  }
+
+  .sece-main-wrap input[type=checkbox]::before {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 0.5555555556vw;
+    top: 0.2083333333vw;
+    width: 0.3472222222vw;
+    height: 0.6944444444vw;
+    background-color: #2189ff;
+    border: solid #fff;
+    border-width: 0 0.1388888889vw 0.1388888889vw 0;
+    transform: rotate(45deg);
+  }
+
+  .sece-main-wrap input[type=checkbox]:hover:not([disabled]) {
+    background-color: rgba(0,111,242,.08);
+    border: 0.0694444444vw solid #006ff2;
+  }
+
+  .sece-main-wrap input[type=radio]::before {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 0.9722222222vw;
+    height: 0.9722222222vw;
+    background-color: #2189ff;
+    border: 0.2777777778vw solid #fff;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sece-main-wrap input[type=radio]:hover:not([disabled]) {
+    border: 0.0694444444vw solid #006ff2;
+  }
+
+  .sece-main-wrap input[type=radio]:checked+span {
+    color: #000;
+  }
+
+  .sece-main-wrap input[type=file] {
+    background: rgba(0,0,0,0);
+  }
+
+  .sece-main-wrap textarea {
     border-radius: 0.4166666667vw;
-    background: transparent;
+    background: rgba(0,0,0,0);
     border: 0.0694444444vw solid #8f8f8f;
     resize: none;
     width: 100%;
@@ -3400,17 +3719,17 @@ body {
     min-height: 9.1666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap textarea:invalid,
-  .sece-NewYearTraditions-wrap textarea.error {
+  .sece-main-wrap textarea:invalid,
+  .sece-main-wrap textarea.error {
     border: 0.0694444444vw solid red;
   }
 
-  .sece-NewYearTraditions-wrap textarea:invalid+.label,
-  .sece-NewYearTraditions-wrap textarea.error+.label {
+  .sece-main-wrap textarea:invalid+.label,
+  .sece-main-wrap textarea.error+.label {
     color: red;
   }
 
-  .sece-NewYearTraditions-wrap .text-counter {
+  .sece-main-wrap .text-counter {
     font-size: 0.9722222222vw;
     text-align: right;
     margin-top: 0.4166666667vw;
@@ -3418,115 +3737,121 @@ body {
     color: #979797;
   }
 
-  .sece-NewYearTraditions-wrap .input-row input:focus {
+  .sece-main-wrap .input-row input:focus {
     border-bottom: 0.0694444444vw solid #0091ff;
     box-shadow: inset 0 -0.0694444444vw 0 #0091ff;
   }
 
-  .sece-NewYearTraditions-wrap .input-row input:focus+.label {
+  .sece-main-wrap .input-row input:focus+.label {
     color: #0091ff;
   }
 
-  .sece-NewYearTraditions-wrap .input-row .buttons {
+  .sece-main-wrap .input-row .buttons {
     width: 100%;
-    justify-content: space-between;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel label,
-  .sece-NewYearTraditions-wrap .input-password label,
-  .sece-NewYearTraditions-wrap .input-email label,
-  .sece-NewYearTraditions-wrap .input-text label {
+  .sece-main-wrap .input-tel label,
+  .sece-main-wrap .input-password label,
+  .sece-main-wrap .input-email label,
+  .sece-main-wrap .input-text label {
     padding-top: 1.5277777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel .label,
-  .sece-NewYearTraditions-wrap .input-password .label,
-  .sece-NewYearTraditions-wrap .input-email .label,
-  .sece-NewYearTraditions-wrap .input-text .label {
+  .sece-main-wrap .input-tel .label,
+  .sece-main-wrap .input-password .label,
+  .sece-main-wrap .input-email .label,
+  .sece-main-wrap .input-text .label {
     position: absolute;
     top: 1.5277777778vw;
     left: 0;
     pointer-events: none;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel .note,
-  .sece-NewYearTraditions-wrap .input-password .note,
-  .sece-NewYearTraditions-wrap .input-email .note,
-  .sece-NewYearTraditions-wrap .input-text .note {
+  .sece-main-wrap .input-tel .note,
+  .sece-main-wrap .input-password .note,
+  .sece-main-wrap .input-email .note,
+  .sece-main-wrap .input-text .note {
     position: absolute;
     left: 100%;
     top: 0;
     width: 100%;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-password input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-email input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .input-text input:not(:-moz-placeholder-shown)+.label {
+  .sece-main-wrap .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-password input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-email input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .input-text input:not(:-moz-placeholder-shown)+.label {
     -moz-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(0, -100%);
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-password input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-email input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .input-text input:not(:-ms-input-placeholder)+.label {
-    -ms-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
+  .sece-main-wrap .input-tel input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .input-tel input:focus+.label,
+  .sece-main-wrap .input-password input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .input-password input:focus+.label,
+  .sece-main-wrap .input-email input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .input-email input:focus+.label,
+  .sece-main-wrap .input-text input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .input-text input:focus+.label {
     transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(0, -100%);
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-tel input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .input-tel input:focus+.label,
-  .sece-NewYearTraditions-wrap .input-password input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .input-password input:focus+.label,
-  .sece-NewYearTraditions-wrap .input-email input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .input-email input:focus+.label,
-  .sece-NewYearTraditions-wrap .input-text input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .input-text input:focus+.label {
-    transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translate(0, -100%);
-    font-size: 0.9722222222vw;
-  }
-
-  .sece-NewYearTraditions-wrap .input-tel input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .input-password input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .input-email input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .input-text input:-webkit-autofill+.label {
+  .sece-main-wrap .input-tel input:-webkit-autofill+.label,
+  .sece-main-wrap .input-password input:-webkit-autofill+.label,
+  .sece-main-wrap .input-email input:-webkit-autofill+.label,
+  .sece-main-wrap .input-text input:-webkit-autofill+.label {
     -webkit-transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(0, -100%);
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-selector label,
-  .sece-NewYearTraditions-wrap .input-number label {
+  .sece-main-wrap .input-selector label,
+  .sece-main-wrap .input-number label {
     margin-top: 1.1111111111vw;
     color: #8f8f8f;
     font-size: 1.25vw;
     height: 2.0833333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-checkbox input {
+  .sece-main-wrap .input-checkbox input {
     float: left;
     overflow: hidden;
   }
 
-  .sece-NewYearTraditions-wrap .input-checkbox label {
+  .sece-main-wrap .input-checkbox label {
+    margin-top: 0.2083333333vw;
     margin-left: 2.0833333333vw;
     display: block;
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-checkbox label a {
+  .sece-main-wrap .input-checkbox label a {
     text-decoration: underline;
   }
 
-  .sece-NewYearTraditions-wrap .input-selector {
+  .sece-main-wrap .input-radio label {
+    margin-bottom: 0.5555555556vw;
+  }
+
+  .sece-main-wrap .input-radio label:first-of-type {
+    margin-bottom: 1.1111111111vw;
+    color: #000;
+  }
+
+  .sece-main-wrap .input-radio span {
+    margin-left: 0.3472222222vw;
+  }
+
+  .sece-main-wrap .input-selector {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     cursor: pointer;
   }
 
-  .sece-NewYearTraditions-wrap .input-selector .item {
+  .sece-main-wrap .input-selector .item {
     border: 0.0694444444vw solid #ddd;
     border-radius: 0.4166666667vw;
     width: 13.3333333333vw;
@@ -3538,104 +3863,104 @@ body {
     font-size: 0.9722222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .input-selector .item:hover,
-  .sece-NewYearTraditions-wrap .input-selector .item.is_selected {
+  .sece-main-wrap .input-selector .item:hover,
+  .sece-main-wrap .input-selector .item.is_selected {
     border: 0.1388888889vw solid #0091ff;
     font-weight: bold;
   }
 
-  .sece-NewYearTraditions-wrap *::-ms-backdrop,
-  .sece-NewYearTraditions-wrap select {
+  .sece-main-wrap *::-ms-backdrop,
+  .sece-main-wrap select {
     background: #fff;
   }
 }
 
 @media (min-width: 768px)and (max-width: 1440px)and (max-width: 53.3333333333vw) {
-  .sece-NewYearTraditions-wrap {
+  .sece-main-wrap {
     font-size: 5vw;
   }
 
-  .sece-NewYearTraditions-wrap .desktop-only {
+  .sece-main-wrap .desktop-only {
     display: none !important;
   }
 
-  .sece-NewYearTraditions-wrap .mobile-only {
+  .sece-main-wrap .mobile-only {
     display: block !important;
   }
 
-  .sece-NewYearTraditions-wrap h1:not(:first-child),
-  .sece-NewYearTraditions-wrap h2:not(:first-child),
-  .sece-NewYearTraditions-wrap h3:not(:first-child),
-  .sece-NewYearTraditions-wrap h4:not(:first-child),
-  .sece-NewYearTraditions-wrap h5:not(:first-child),
-  .sece-NewYearTraditions-wrap h6:not(:first-child) {
+  .sece-main-wrap h1:not(:first-child),
+  .sece-main-wrap h2:not(:first-child),
+  .sece-main-wrap h3:not(:first-child),
+  .sece-main-wrap h4:not(:first-child),
+  .sece-main-wrap h5:not(:first-child),
+  .sece-main-wrap h6:not(:first-child) {
     margin: 2.2222222222vw 0 0;
   }
 
-  .sece-NewYearTraditions-wrap h1 {
+  .sece-main-wrap h1 {
     font-size: 8.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap h2 {
+  .sece-main-wrap h2 {
     font-size: 7.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap h3 {
+  .sece-main-wrap h3 {
     font-size: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap h4 {
+  .sece-main-wrap h4 {
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap h5 {
+  .sece-main-wrap h5 {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap h6 {
+  .sece-main-wrap h6 {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2 {
+  .sece-main-wrap.sece-language-kz h2 {
     font-size: 5.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap.sece-language-kz h2.bigger {
+  .sece-main-wrap.sece-language-kz h2.bigger {
     font-size: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .prenote {
+  .sece-main-wrap .prenote {
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap p {
+  .sece-main-wrap p {
     font-size: 3.8888888889vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .video-frame,
-  .sece-NewYearTraditions-wrap .image-frame {
+  .sece-main-wrap .video-frame,
+  .sece-main-wrap .image-frame {
     margin-top: 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap ol {
+  .sece-main-wrap ol {
     padding-left: 5.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap ol li {
+  .sece-main-wrap ol li {
     font-size: 5.5555555556vw;
     padding-left: 1.3888888889vw;
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap ul {
+  .sece-main-wrap ul {
     margin: 0 0 2.7777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-white,
-  .sece-NewYearTraditions-wrap .btn-p6-encased,
-  .sece-NewYearTraditions-wrap .btn-p6-blue,
-  .sece-NewYearTraditions-wrap .btn-p6-black {
+  .sece-main-wrap .btn-p6-white,
+  .sece-main-wrap .btn-p6-encased,
+  .sece-main-wrap .btn-p6-blue,
+  .sece-main-wrap .btn-p6-black {
     min-height: 11.1111111111vw;
     height: auto;
     border-radius: 11.1111111111vw;
@@ -3643,13 +3968,13 @@ body {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6 .trailing-icon {
+  .sece-main-wrap .btn-p6 .trailing-icon {
     width: 4.4444444444vw;
     height: 4.4444444444vw;
     margin: 0 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text-underline {
+  .sece-main-wrap .btn-p6-text-underline {
     font-size: 3.8888888889vw;
     height: auto;
     padding: 2.2222222222vw 0 0.8333333333vw 0;
@@ -3657,27 +3982,27 @@ body {
     margin-bottom: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-small {
+  .sece-main-wrap .btn-p6-small {
     height: 7.7777777778vw;
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6-text {
+  .sece-main-wrap .btn-p6-text {
     font-size: 3.8888888889vw;
     height: auto;
     padding: 2.2222222222vw 0 0.8333333333vw 0;
     margin-bottom: 1.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .btn-p6:focus {
+  .sece-main-wrap .btn-p6:focus {
     outline: none;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 4.4444444444vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col {
+  .sece-main-wrap .section .col {
     display: flex;
     flex-flow: row wrap;
     flex: 0 0 0vw;
@@ -3688,432 +4013,385 @@ body {
     padding: 0 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-wrapper {
+  .sece-main-wrap .section .col.col-wrapper {
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-0 {
+  .sece-main-wrap .section .col.col-0 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-1 {
-    flex: 1 0 100%;
-    padding: 0;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
-    flex: 0 1 50%;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
-    flex: 1 0 100%;
-  }
-
-  .sece-NewYearTraditions-wrap .section .col.col-2 {
+  .sece-main-wrap .section .col.col-1 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3 {
+  .sece-main-wrap .section .col.col-2 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-4 {
+  .sece-main-wrap .section .col.col-3 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-5 {
+  .sece-main-wrap .section .col.col-4 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-6 {
+  .sece-main-wrap .section .col.col-5 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-7 {
+  .sece-main-wrap .section .col.col-6 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-8 {
+  .sece-main-wrap .section .col.col-7 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-9 {
+  .sece-main-wrap .section .col.col-8 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-10 {
+  .sece-main-wrap .section .col.col-9 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-11 {
+  .sece-main-wrap .section .col.col-10 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-12 {
+  .sece-main-wrap .section .col.col-11 {
     flex: 1 0 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-2-5 {
+  .sece-main-wrap .section .col.col-2-5 {
     flex: 0 1 50%;
   }
 
-  .sece-NewYearTraditions-wrap .section .col.col-3-75 {
+  .sece-main-wrap .section .col.col-3-75 {
     flex: 1 0 100%;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper {
+  .sece-main-wrap .section .col.col-12 {
+    flex: 1 0 100%;
+    padding: 0;
+  }
+
+  .sece-main-wrap .section .col.col-2-5 {
+    flex: 0 1 50%;
+  }
+
+  .sece-main-wrap .section .col.col-3-75 {
+    flex: 1 0 100%;
+  }
+
+  .sece-main-wrap .section .wrapper {
     width: 100%;
     padding: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section>.wrapper {
+  .sece-main-wrap .section>.wrapper {
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-even .input-row {
+  .sece-main-wrap .section .col-even .input-row {
     padding-left: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .col-odd .input-row {
+  .sece-main-wrap .section .col-odd .input-row {
     padding-right: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-wrap {
+  .sece-main-wrap .section .text-wrap {
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline {
+  .sece-main-wrap .section .subline {
     margin-top: 8.8888888889vw;
     margin-bottom: 15.5555555556vw;
     padding-bottom: 15.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .subline:after {
+  .sece-main-wrap .section .subline:after {
     width: 45.8333333333vw;
     height: 0.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model img {
+  .sece-main-wrap .section .text-model img {
     margin-top: 8.8888888889vw;
     margin-bottom: 8.8888888889vw;
     width: 58.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model .btn-p6 {
+  .sece-main-wrap .section .text-model .btn-p6 {
     margin-top: 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-model h4 {
+  .sece-main-wrap .section .text-model h4 {
     padding-left: 6.6666666667vw;
     padding-right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons {
+  .sece-main-wrap .buttons {
     margin: 6.6666666667vw 0 0 -2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6 {
+  .sece-main-wrap .buttons .btn-p6 {
     margin: 0 2.2222222222vw;
     display: inline-flex;
     align-items: center;
     padding-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons.btn-p6-small {
+  .sece-main-wrap .buttons.btn-p6-small {
     margin: 0 1.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons.btn-p6-small:not(:last-child) {
+  .sece-main-wrap .buttons.btn-p6-small:not(:last-child) {
     margin-bottom: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .buttons .btn-p6-black:first-child {
+  .sece-main-wrap .buttons .btn-p6-black:first-child {
     margin: 0 2.2222222222vw 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section {
+  .sece-main-wrap .section {
     padding: 6.6666666667vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .block-rc {
+  .sece-main-wrap .section .block-rc {
     border-radius: 5.5555555556vw;
     padding: 6.6666666667vw 8.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section:last-child {
+  .sece-main-wrap .section:last-child {
     padding-bottom: 6.6666666667vw 0 0 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .buttons {
+  .sece-main-wrap .section .buttons {
     margin-bottom: 8.8888888889vw;
     margin-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper .text-padded {
+  .sece-main-wrap .section .wrapper .text-padded {
     padding-left: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .wrapper:last-child {
+  .sece-main-wrap .section .wrapper:last-child {
     padding-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-wrap {
+  .sece-main-wrap .section .text-wrap {
     margin: 6.6666666667vw 0 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature {
+  .sece-main-wrap .section .text-feature {
     font-size: 3.8888888889vw;
     margin-top: 6.6666666667vw;
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature p {
+  .sece-main-wrap .section .text-feature p {
     font-size: 5vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature .icon {
+  .sece-main-wrap .section .text-feature .icon {
     width: 15.5555555556vw;
     height: 15.5555555556vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-1+.background {
+  .sece-main-wrap .section .text-feature.text-feature-1+.background {
     width: 40.5555555556vw;
     height: 35.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-2+.background {
+  .sece-main-wrap .section .text-feature.text-feature-2+.background {
     width: 41.1111111111vw;
     height: 38.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .text-feature.text-feature-3+.background {
+  .sece-main-wrap .section .text-feature.text-feature-3+.background {
     width: 41.1111111111vw;
     height: 40.8333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero {
-    height: 177.7777777778vw;
+  .sece-main-wrap .section.section-example {
+    height: 222.2222222222vw;
     padding: 36.1111111111vw 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero .text-wrap {
+  .sece-main-wrap .section.section-example .text-wrap {
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-hero p {
+  .sece-main-wrap .section.section-example p {
     font-size: 5vw;
     padding-right: 22.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-howto .col.col-3 {
-    flex-basis: 50%;
-    margin-top: 3.8888888889vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-about .background {
-    height: 1587.2222222222vw;
-    width: 100vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper {
-    align-items: flex-start;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper .text-wrap {
-    margin-top: 6.6666666667vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-winners .wrapper ul {
-    margin-top: 4.4444444444vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-form {
+  .sece-main-wrap .section.section-form {
     border-radius: 4.4444444444vw;
     margin: 8.8888888889vw auto;
-    padding: 8.8888888889vw 0 56.9444444444vw;
+    padding: 8.8888888889vw;
     width: 86.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .wrapper {
+  .sece-main-wrap .section.section-form .wrapper {
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .col-wrapper {
+  .sece-main-wrap .section.section-form .col-wrapper {
     padding: 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form h2 {
+  .sece-main-wrap .section.section-form h2 {
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .text-wrap {
+  .sece-main-wrap .section.section-form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-form .background {
+  .sece-main-wrap .section.section-form .background {
     bottom: 0;
     top: auto;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-traditions .wrapper-stories {
-    padding-top: 6.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-traditions .story {
-    width: 100%;
-    padding: 3.3333333333vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .col-3 {
-    margin-top: 2.2222222222vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents h3 {
-    font-size: 6.1111111111vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-presents .background {
-    width: 70.5555555556vw;
-    height: 67.7777777778vw;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-  }
-
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-wrap {
+  .sece-main-wrap .section.section-faq .faq-wrap {
     margin-top: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item {
+  .sece-main-wrap .section.section-faq .faq-item {
     padding: 2.2222222222vw 0;
     text-align: left;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .plus-minus,
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .arrow {
+  .sece-main-wrap .section.section-faq .faq-item .plus-minus,
+  .sece-main-wrap .section.section-faq .faq-item .arrow {
     width: 6.6666666667vw;
     height: 6.6666666667vw;
     flex: 0 0 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question {
     padding-left: 6.6666666667vw;
     align-items: flex-start;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-question .index {
+  .sece-main-wrap .section.section-faq .faq-item .faq-question .index {
     margin-left: -6.6666666667vw;
     width: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer {
     max-height: 999px;
     padding-left: 6.6666666667vw;
     padding-right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section.section-faq .faq-item .faq-answer p {
+  .sece-main-wrap .section.section-faq .faq-item .faq-answer p {
     margin-top: 0;
     font-size: 3.8888888889vw;
     padding-top: 2.2222222222vw;
@@ -4121,208 +4399,281 @@ body {
     word-break: break-word;
   }
 
-  .sece-NewYearTraditions-wrap .section form {
+  .sece-main-wrap .section .select-open {
+    width: 6.6666666667vw;
+    height: 6.6666666667vw;
+    position: absolute;
+    right: 3.3333333333vw;
+    top: 6.6666666667vw;
+    pointer-events: none;
+  }
+
+  .sece-main-wrap .section form {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
-  .sece-NewYearTraditions-wrap .section form .text-wrap {
+  .sece-main-wrap .section form .text-wrap {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section form .col.col-3 .input-row,
-  .sece-NewYearTraditions-wrap .section form .col.col-9 .input-row {
+  .sece-main-wrap .section form .col.col-3 .input-row,
+  .sece-main-wrap .section form .col.col-9 .input-row {
     padding-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .note {
+  .sece-main-wrap .section .form-items {
+    margin-top: 0;
+    display: unset;
+    gap: 6.6666666667vw;
+    width: 86.6666666667vw;
+    padding: 6.6666666667vw 0 0;
+    border-bottom: 0;
+    padding: 6.6666666667vw 0;
+  }
+
+  .sece-main-wrap .section .form-items:last-of-type {
+    padding: 4.4444444444vw 0 0;
+  }
+
+  .sece-main-wrap .section .form-item p {
+    width: unset;
+  }
+
+  .sece-main-wrap .section .form-select {
+    background-color: #fff;
+    border: none;
+    padding: 3.8888888889vw 6.6666666667vw;
+    font-size: 3.8888888889vw;
+    margin-top: 3.3333333333vw;
+  }
+
+  .sece-main-wrap .section .form-select .error {
+    border: 1px solid red;
+  }
+
+  .sece-main-wrap .section .form-file-select {
+    border-bottom: 0.5555555556vw solid #000;
+  }
+
+  .sece-main-wrap .section .form-file-img {
+    margin: 3.3333333333vw 0 0 2.2222222222vw;
+    font-size: 3.3333333333vw;
+  }
+
+  .sece-main-wrap .section .form-file-img .error {
+    color: red;
+  }
+
+  .sece-main-wrap .section .note {
     color: #979797;
     align-self: flex-end;
   }
 
-  .sece-NewYearTraditions-wrap .section .message-error {
+  .sece-main-wrap .section .message-error {
     font-size: 2.7777777778vw;
     margin-top: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .message-error:empty {
+  .sece-main-wrap .section .message-error:empty {
     margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .note {
+  .sece-main-wrap .section .note {
     font-size: 3.3333333333vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .label {
+  .sece-main-wrap .section .label {
     font-size: 3.8888888889vw;
     height: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row {
+  .sece-main-wrap .section .input-row {
     margin-top: 4.4444444444vw;
     padding-top: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row .note {
+  .sece-main-wrap .section .input-row.input-checkboxes .input-row,
+  .sece-main-wrap .section .input-row.input-radio .input-row {
+    margin-top: 2.2222222222vw;
+    padding-top: 2.2222222222vw;
+  }
+
+  .sece-main-wrap .section .input-row.input-checkboxes .input-row input,
+  .sece-main-wrap .section .input-row.input-radio .input-row input {
+    margin-right: 2.2222222222vw;
+  }
+
+  .sece-main-wrap .section .input-row .note {
     color: #8f8f8f;
     padding-left: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-row.input-textarea {
+  .sece-main-wrap .section .input-row.input-textarea {
     margin-bottom: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text],
-  .sece-NewYearTraditions-wrap .section input[type=tel],
-  .sece-NewYearTraditions-wrap .section input[type=number],
-  .sece-NewYearTraditions-wrap .section input[type=password],
-  .sece-NewYearTraditions-wrap .section input[type=email] {
+  .sece-main-wrap .section input[type=text],
+  .sece-main-wrap .section input[type=tel],
+  .sece-main-wrap .section input[type=number],
+  .sece-main-wrap .section input[type=password],
+  .sece-main-wrap .section input[type=email] {
     font-size: 3.8888888889vw;
     line-height: 6.6666666667vw;
     padding: 0 0 1.9444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill {
-    box-shadow: 0 0 0 277.7777777778vw #fff inset;
+  .sece-main-wrap .section input[type=text]:-webkit-autofill,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill {
+    box-shadow: 0 0 0 277.7777777778vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=text]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=tel]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=number]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=password]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:focus,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:hover,
-  .sece-NewYearTraditions-wrap .section input[type=email]:-webkit-autofill:focus {
-    box-shadow: 0 0 0 277.7777777778vw #fff inset;
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=text]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=tel]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=number]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=password]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:focus,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:hover,
+  .sece-main-wrap .section input[type=email]:-webkit-autofill:focus {
+    box-shadow: 0 0 0 277.7777777778vw #f7f7f7 inset;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-label p {
+  .sece-main-wrap .section .input-label p {
     text-align: center;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-label b {
+  .sece-main-wrap .section .input-label b {
     font-size: 3.8888888889vw;
     margin-bottom: 2.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-select {
+  .sece-main-wrap .section .input-select {
     margin-bottom: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=file] {
+  .sece-main-wrap .section input[type=file] {
     width: 75.2777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section select {
+  .sece-main-wrap .section select {
     height: 13.3333333333vw;
     padding: 3.8888888889vw 6.6666666667vw;
     font-size: 3.8888888889vw;
     padding-right: 11.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section input[type=checkbox] {
-    width: 5.5555555556vw;
-    height: 5.5555555556vw;
+  .sece-main-wrap .section input[type=checkbox],
+  .sece-main-wrap .section input[type=radio] {
+    width: 6.6666666667vw;
+    height: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .section textarea {
+  .sece-main-wrap .section input[type=checkbox]::before {
+    width: 1.3888888889vw;
+    height: 2.7777777778vw;
+    left: 2.2222222222vw;
+    top: 0.8333333333vw;
+  }
+
+  .sece-main-wrap .section input[type=radio]::before {
+    width: 3.8888888889vw;
+    height: 3.8888888889vw;
+    border: 1.1111111111vw solid #fff;
+  }
+
+  .sece-main-wrap .section textarea {
     border-radius: 1.6666666667vw;
     font-size: 3.8888888889vw;
     padding: 3.3333333333vw 4.4444444444vw;
     min-height: 52.7777777778vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel label,
-  .sece-NewYearTraditions-wrap .section .input-password label,
-  .sece-NewYearTraditions-wrap .section .input-email label,
-  .sece-NewYearTraditions-wrap .section .input-text label {
+  .sece-main-wrap .section .input-tel label,
+  .sece-main-wrap .section .input-password label,
+  .sece-main-wrap .section .input-email label,
+  .sece-main-wrap .section .input-text label {
     padding-top: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel .label,
-  .sece-NewYearTraditions-wrap .section .input-password .label,
-  .sece-NewYearTraditions-wrap .section .input-email .label,
-  .sece-NewYearTraditions-wrap .section .input-text .label {
+  .sece-main-wrap .section .input-tel .label,
+  .sece-main-wrap .section .input-password .label,
+  .sece-main-wrap .section .input-email .label,
+  .sece-main-wrap .section .input-text .label {
     top: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-password input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-email input:not(:-moz-placeholder-shown)+.label, .sece-NewYearTraditions-wrap .section .input-text input:not(:-moz-placeholder-shown)+.label {
+  .sece-main-wrap .section .input-tel input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-password input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-email input:not(:-moz-placeholder-shown)+.label, .sece-main-wrap .section .input-text input:not(:-moz-placeholder-shown)+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-password input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-email input:not(:-ms-input-placeholder)+.label, .sece-NewYearTraditions-wrap .section .input-text input:not(:-ms-input-placeholder)+.label {
+  .sece-main-wrap .section .input-tel input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-tel input:focus+.label,
+  .sece-main-wrap .section .input-password input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-password input:focus+.label,
+  .sece-main-wrap .section .input-email input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-email input:focus+.label,
+  .sece-main-wrap .section .input-text input:not(:placeholder-shown)+.label,
+  .sece-main-wrap .section .input-text input:focus+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-tel input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:focus+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:not(:placeholder-shown)+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:focus+.label {
+  .sece-main-wrap .section .input-tel input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-password input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-email input:-webkit-autofill+.label,
+  .sece-main-wrap .section .input-text input:-webkit-autofill+.label {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-tel input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-password input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-email input:-webkit-autofill+.label,
-  .sece-NewYearTraditions-wrap .section .input-text input:-webkit-autofill+.label {
-    font-size: 3.8888888889vw;
-  }
-
-  .sece-NewYearTraditions-wrap .section .input-selector label,
-  .sece-NewYearTraditions-wrap .section .input-number label {
+  .sece-main-wrap .section .input-selector label,
+  .sece-main-wrap .section .input-number label {
     margin-top: 4.4444444444vw;
     font-size: 3.8888888889vw;
     min-height: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox {
+  .sece-main-wrap .section .input-checkbox {
     padding-top: 2.2222222222vw;
-    margin-top: 0;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox label {
+  .sece-main-wrap .section .input-checkbox label {
+    margin-top: 0;
     margin-left: 8.3333333333vw;
     font-size: 3.8888888889vw;
     line-height: 1.33;
     display: block;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-checkbox label a {
+  .sece-main-wrap .section .input-checkbox label a {
     text-decoration: underline;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-selector .item {
+  .sece-main-wrap .section .input-selector .item {
     border-radius: 1.6666666667vw;
     width: 38.3333333333vw;
     height: 13.8888888889vw;
@@ -4330,12 +4681,24 @@ body {
     font-size: 3.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .section .input-selector .item:hover,
-  .sece-NewYearTraditions-wrap .section .input-selector .item.is_selected {
+  .sece-main-wrap .section .input-selector .item:hover,
+  .sece-main-wrap .section .input-selector .item.is_selected {
     border: 0.5555555556vw solid #0091ff;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup {
+  .sece-main-wrap .checkbox-wrapper {
+    display: block;
+    margin-bottom: 8.3333333333vw;
+    position: relative;
+  }
+
+  .sece-main-wrap .checkbox-text {
+    position: absolute;
+    left: 8.3333333333vw;
+    top: 0;
+  }
+
+  .sece-main-wrap .popup-wrap .popup {
     border-radius: 0;
     max-width: 100%;
     width: 100%;
@@ -4348,25 +4711,25 @@ body {
     padding: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .icon-success {
+  .sece-main-wrap .popup-wrap .icon-success {
     width: 13.3333333333vw;
     height: 13.3333333333vw;
     margin: 0;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-title {
+  .sece-main-wrap .popup-wrap .popup-title {
     padding: 0;
     font-size: 6.1111111111vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-close {
+  .sece-main-wrap .popup-wrap .popup-close {
     width: 6.6666666667vw;
     height: 6.6666666667vw;
     top: 6.6666666667vw;
     right: 6.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content {
+  .sece-main-wrap .popup-wrap .popup-content {
     max-width: 100%;
     width: 100%;
     height: 100%;
@@ -4377,47 +4740,40 @@ body {
     padding-top: 16.6666666667vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-close {
+  .sece-main-wrap .popup-wrap .popup-content .popup-close {
     cursor: pointer;
     position: absolute;
     top: 7.5vw;
     right: 7.5vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text p {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text p {
     font-size: 4.4444444444vw;
   }
 
-  .sece-NewYearTraditions-wrap .popup-wrap .popup-content .popup-text .post-content {
+  .sece-main-wrap .popup-wrap .popup-content .popup-text .post-content {
     max-height: 100%;
     margin-bottom: 4.4444444444vw;
     padding-right: 0;
   }
 
-  .sece-NewYearTraditions-wrap .panel {
+  .sece-main-wrap .panel {
     margin-top: 8.8888888889vw;
     width: 88.8888888889vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-head {
+  .sece-main-wrap .panel .panel-head {
     padding: 7.2222222222vw;
   }
 
-  .sece-NewYearTraditions-wrap .panel .panel-body {
+  .sece-main-wrap .panel .panel-body {
     padding: 13.3333333333vw 6.6666666667vw;
-  }
-}
-
-@media (min-width: 768px)and (max-width: 1440px) {
-  .sece-NewYearTraditions-wrap .block-rc img {
-    transition: transform 1s;
-    transform-origin: 50% 50%;
   }
 }
