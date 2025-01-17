@@ -59,6 +59,17 @@ body {
   }
 
   .section {
+    padding: 0;
+    position: relative;
+    font-size: 18px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
     .col {
       display: flex;
       flex-flow: row wrap;
@@ -106,6 +117,7 @@ body {
   .section {
 
     .wrapper {
+      display: flex;
     }
 
   }
