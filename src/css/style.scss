@@ -15,6 +15,18 @@ body {
   margin: 0;
 }
 
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.grey {
+  background-color: gray;
+}
+
 .main-wrap {
   position: relative;
   margin: 0 auto;
@@ -57,6 +69,8 @@ body {
   .is_hidden {
     display: none !important;
   }
+
+
 
   .section {
     padding: 0;
@@ -114,10 +128,25 @@ body {
     }
   }
 
-  .section {
 
-    .wrapper {
-      display: flex;
+  .wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: flex-start;
+    padding: 0;
+    align-items: center;
+
+    &.wrapper-reverse {
+      flex-flow: row-reverse wrap;
+    }
+
+    &.wrapper-center {
+      justify-content: center;
+    }
+    &.wrapper-between {
+      justify-content: space-between;
     }
 
   }

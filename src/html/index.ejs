@@ -37,31 +37,348 @@ const about = require('./_about.ejs');
   %>
   <div class="main-wrap sece-language-<%= language %>" data-page="<%= page %>" data-language="<%= language %>" data-base-url="<%= baseUrl %>" data-omni-base="<%= omniBase %>" data-assets-image="<%= imageRoot %>" data-assets-content="<%= contentRoot %>">
 
-    <div id="page-wrapper">
-      <section id="example" class="section section-example">
+    <div id="page-wrapper" class="grey">
+
+      <section id="header" class="section section-header">
+        <div class="wrapper">
+          <div class="col col-12 col-wrapper">
+            <div class="col col-4 red">logo</div>
+            <div class="col col-4 ">tel:phone-number</div>
+            <div class="col col-4 red">goto:main-page</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="section section-header">
+        <div class="wrapper">
+          <div class="col col-12 col-wrapper">
+            <div class="col col-4">homestars</div>
+            <div class="col col-4">bbb</div>
+            <div class="col col-4">google</div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="comfort" class="section section-comfort">
         <div class="wrapper">
           <div class="col col-6">
-            <div class="text-wrap text-padded">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <div class="buttons">
-                <a href="" class="btn-p6 btn-p6-encased">Кнопка пустая</a>
-                <a href="" class="btn-p6 btn-p6-black">Кнопка чёрная</a>
-                <a href="" class="btn-p6 btn-p6-white">Кнопка белая</a>
-                <a href="" class="btn-p6 btn-p6-text-underline">Кнопка-текст с подчеркиванием</a>
+            <h3>comfort text</h3>
+          </div>
+          <div class="col col-6">
+            <h3>img</h3>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="col col-6">button</div>
+          <div class="col col-6">button</div>
+        </div>
+      </section>
+
+      <section id="why-heat-pump" class="section section-why-heat-pump">
+        <div class="wrapper">
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="tiles">
+            <div class="col col-6"><h3>tile-1</h3></div>
+            <div class="col col-6"><h3>tile-2</h3></div>
+            <div class="col col-6"><h3>tile-3</h3></div>
+            <div class="col col-6"><h3>tile-4</h3></div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="banner-family" class="section section-banner-family">
+        <div class="wrapper wrapper-center">
+          <div class="col col-12">
+            <h3>img</h3>
+          </div>
+        </div>
+      </section>
+      
+      <section id="steps" class="section section-steps">
+        <div class="wrapper">
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="col col-12 col-wrapper">
+            <div class="col col-6">img</div>
+            <div class="col col-6 col-wrapper">
+              <div class="col col-12">text</div>
+              <div class="col col-12">phone</div>
+              <div class="col col-12">time</div>
+            </div>
+          </div>
+
+          <div class="col col-12 col-wrapper">
+            <div class="col col-6 col-wrapper">
+              <div class="col col-12">text</div>
+              <div class="col col-12">button</div>
+            </div>
+            <div class="col col-6">img</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="steps" class="section section-steps">
+        <div class="wrapper">
+          <div class="col col-12">
+            <h2>section break</h2>
+          </div>
+
+          <div class="col col-12">title</div>
+          <div class="col col-12">excellent</div>
+          <div class="col col-12">google logo</div>
+          <div class="col col-12">stars</div>
+          <div class="col col-12">subtitle</div>
+
+          <div class="col col-12">
+            <div class="carousel reviews">
+              <h2>carousel</h2>
+            </div>
+          </div>
+          
+          <div class="col col-12">
+            <h2>section break</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-we" class="section section-why-we">
+        <div class="wrapper">
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="col col-12">
+            <h2>paragraph</h2>
+          </div>
+          <div class="col col-12 col-wrapper">
+            <!-- // half -->
+            <div class="col col-6 col-wrapper">
+              <!-- // block -->
+              <div class="col col-4">
+                <h2>bbb logo</h2>
+              </div>
+              <div class="col col-8 col-wrapper">
+                <div class="col col-12">
+                  <h2>title</h2>
+                </div>
+                <div class="col col-12">
+                  <h2>subtitle</h2>
+                </div>
+              </div>
+              <!-- // block -->
+              <div class="col col-4">
+                <h2>bbb logo</h2>
+              </div>
+              <div class="col col-8 col-wrapper">
+                <div class="col col-12">
+                  <h2>title</h2>
+                </div>
+                <div class="col col-12">
+                  <h2>subtitle</h2>
+                </div>
+              </div>
+              <!-- // block -->
+              <div class="col col-4">
+                <h2>10 years</h2>
+              </div>
+              <div class="col col-8 col-wrapper">
+                <div class="col col-12">
+                  <h2>title</h2>
+                </div>
+                <div class="col col-12">
+                  <h2>subtitle</h2>
+                </div>
+              </div>
+          </div>
+          <!-- // half -->
+          <div class="col col-6 col-wrapper">
+            <!-- // block -->
+            <div class="col col-4">
+              <h2>google</h2>
+            </div>
+            <div class="col col-8 col-wrapper">
+              <div class="col col-12">
+                <h2>title</h2>
+              </div>
+              <div class="col col-12">
+                <h2>subtitle</h2>
+              </div>
+            </div>
+          
+            <!-- // block -->
+            <div class="col col-4">
+              <h2>licensed & certified</h2>
+            </div>
+            <div class="col col-8 col-wrapper">
+              <div class="col col-12">
+                <h2>title</h2>
+              </div>
+              <div class="col col-12">
+                <h2>subtitle</h2>
+              </div>
+            </div>
+          
+            <!-- // block -->
+            <div class="col col-4">
+              <h2>$2M liability</h2>
+            </div>
+            <div class="col col-8 col-wrapper">
+              <div class="col col-12">
+                <h2>title</h2>
+              </div>
+              <div class="col col-12">
+                <h2>subtitle</h2>
               </div>
             </div>
           </div>
         </div>
-        <img src="" alt="" class="background desktop-only">
-        <img src="" alt="" class="background mobile-only">
+        
       </section>
-      <section class="section">
+
+      <section id="home" class="section section-home">
         <div class="wrapper">
-          <%- about() %>
+          <div class="col col-6">
+            <h2>home logo</h2>
+          </div>
+          <div class="col col-6">
+            <h2>save energy logo</h2>
+          </div>
+
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="col col-12">
+            <h2>paragraph</h2>
+          </div>
+          
+          <div class="col col-12 col-wrapper">
+            <div class="col col-5">
+              <h2>text</h2>
+            </div>
+            <div class="col col-3 col-wrapper">
+              <div class="col col-12">
+                <h2>button</h2>
+              </div>
+              <div class="col col-12">
+                <h2>button</h2>
+              </div>
+            </div>
+            <div class="col col-4">
+              <h2>sticker img</h2>
+            </div>
+          </div>
+
         </div>
       </section>
-      
+
+      <section id="brands" class="section section-brands">
+        <div class="wrapper">
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="col col-12">
+            <div class="carousel brands"></div>
+          </div>
+      </section>
+          
+      <section id="learn" class="section section-learn">
+          <div class="col col-12">
+            <h2>title</h2>
+          </div>
+          <div class="col col-12 col-wrapper">
+            <div class="col col-6"><h2>tile with text</h2></div>
+            <div class="col col-6"><h2>img</h2></div>
+          </div>
+          
+          <div class="col col-12 col-wrapper">
+            <div class="col col-6"><h2>img</h2></div>
+            <div class="col col-6"><h2>tile with text</h2></div>
+          </div>
+          <div class="col col-12 col-wrapper">
+            <div class="col col-6"><h2>tile with text</h2></div>
+            <div class="col col-6"><h2>img</h2></div>
+          </div>
+      </section>
+          
+      <section id="our-work" class="section">
+        <div class="col col-12 col-wrapper">
+          <div class="col col-3">img</div>
+          <div class="col col-9"><h2>title</h2></div>
+        </div>
+        <div class="col col-12">
+          <div class="carousel works">
+            <h2>carousel works</h2>
+          </div>
+        </div>
+        <div class="col col-12 col-wrapper">
+          <div class="col col-6"><h2>button</h2></div>
+          <div class="col col-6"><h2>button</h2></div>
+        </div>
+      </section>
+
+      <section id="get-quote" class="section section-get-quote">
+        <div class="wrapper">
+          <div class="col col-6">
+            <!-- // WRAPPER -->
+            <div class="col col-12"><h2>title</h2></div>
+            <div class="col col-12"><h2>form field</h2></div>
+            <div class="col col-12"><h2>form field</h2></div>
+            <div class="col col-12"><h2>form field</h2></div>
+            <div class="col col-12"><h2>form field</h2></div>
+            <div class="col col-12"><h2>form field</h2></div>
+            <div class="col col-12"><h2>button</h2></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer" class="section section-footer">
+        <div class="wrapper">
+
+          <div class="col col-12 col-wrapper">
+            <div class="col col-4 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+
+            <div class="col col-4 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+
+            <div class="col col-4 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+          </div>
+
+          <div class="col col-12 col-wrapper">
+            <div class="col col-3 col-wrapper">
+              <div class="col col-12">logo</div>
+            </div>
+            
+            <div class="col col-3 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+            
+            <div class="col col-3 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+            
+            <div class="col col-3 col-wrapper">
+              <div class="col col-4">img</div>
+              <div class="col col-8">text</div>
+            </div>
+
+          </div>
+
+          <div class="col col-12 col-wrapper"></div>
+          
+        </div>
+      </section>
     </div>
   </div>
 </body>

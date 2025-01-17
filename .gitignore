@@ -1,5 +1,7 @@
 /node_modules
 /design
+/input
+
 # yii console commands
 /yii/yii
 /yii/yii_test
